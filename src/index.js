@@ -8,6 +8,7 @@ const containerBtn = document.querySelector('.container-btn')
 const display = document.querySelector('#display-text')
 const inputLang = document.querySelector('#lang')
 const containerSetting = document.querySelector('#setting')
+const containerType = document.querySelector('#type')
 const customLevel = []
 
 let textInit = inputLang.value === 'en' ? 'They are ready?' : '¿Están listos?'
@@ -32,6 +33,7 @@ const getTruthAndDare = () => {
 
 const onChangeLang = () => {
   textInit = inputLang.value === 'en' ? 'They are ready?' : '¿Están listos?'
+  containerType.innerText = '😃'
   display.innerText = textInit;
   animateText()
 }
@@ -53,11 +55,8 @@ const animateText = () => {
 
 const upDatedView = (type, text) => {
   if (type != undefined || text != undefined) {
-    let template = `
-    <p> <b>${type}:</b> ${text}</p>
-    `
-
-    display.innerHTML = template
+    display.innerText = text
+    containerType.innerText = type
     animateText()
   }
 }
