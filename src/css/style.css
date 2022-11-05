@@ -18,20 +18,19 @@ body {
 	}
 }
 
-#display-text {
-	font-size: 1.5rem;
-}
-
-#game {
+.container-game {
 	display: grid;
 	grid-template-rows: 1fr 1fr;
 	height: 100vh;
 }
 
+#display-text {
+	font-size: 1.5rem;
+}
+
 #setting {
 	font-size: 1.5rem;
-	position: absolute;
-  top: 50px;
+	color: white;
 }
 
 input[type=checkbox] {
@@ -59,4 +58,9 @@ input[type=checkbox] {
 
 .nav-link .active {
 	color: #000;
+}
+
+.form-check {
+	display: flex;
+	align-items: center;
 }

@@ -76,9 +76,19 @@ const getRandomLevel = () => {
 }
 
 const getRandomOutput = (optionQuery, level, lang) => {
+  let optionSelect = optionQuery
   let newType
   let newText
-  if (optionQuery === 'truth') {
+  
+  if ( optionSelect === 'random') {
+    let option = ['truth','dare']
+    let randomIndex = getRandomIndex(option.length)
+    
+    optionSelect = option[randomIndex]
+    
+  }
+
+  if ( optionSelect === 'truth') {
     const filterByLevel = TRUTH.filter(item => item.level == level)
     const indexFilter = getRandomIndex(filterByLevel.length)
     const { type, summary } = filterByLevel[indexFilter]
@@ -87,7 +97,7 @@ const getRandomOutput = (optionQuery, level, lang) => {
     newType = type
   }
 
-  if (optionQuery === 'dare') {
+  if ( optionSelect === 'dare') {
     const filterByLevel = DARE.filter(item => item.level == level)
     const indexFilter = getRandomIndex(filterByLevel.length)
     const { type, summary } = filterByLevel[indexFilter]
@@ -114,12 +124,13 @@ const getCustomLevel = (e) => {
       let index = customLevel.indexOf(elementSelect.dataset.level)
       customLevel.pop(index)
     }
+    console.log(customLevel )
   }
 }
 
 containerBtn.addEventListener('click', onClickAction)
 inputLang.addEventListener('change', onChangeLang)
-// containerSetting.addEventListener('click', getCustomLevel)
+containerSetting.addEventListener('click', getCustomLevel)
 
 getTruthAndDare()
 
