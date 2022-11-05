@@ -9,6 +9,8 @@ const display = document.querySelector('#display-text')
 const inputLang = document.querySelector('#lang')
 const containerSetting = document.querySelector('#setting')
 const containerType = document.querySelector('#type')
+const inputFont = document.querySelector('#font-family')
+const body = document.querySelector('body')
 const customLevel = []
 
 let textInit = inputLang.value === 'en' ? 'They are ready?' : '¿Están listos?'
@@ -55,8 +57,14 @@ const animateText = () => {
 
 const upDatedView = (type, text) => {
   if (type != undefined || text != undefined) {
+    let lang = inputLang.value;
+    let newType
+
+    if (lang === 'es' && type === 'Truth ❗❓') newType = 'Verdad ❗❓';
+    if (lang === 'es' && type === 'Dare 🔥') newType = 'Reto 🔥';
+
     display.innerText = text
-    containerType.innerText = type
+    containerType.innerText = newType || type
     animateText()
   }
 }
@@ -93,7 +101,7 @@ const getRandomOutput = (optionQuery, level, lang) => {
     const { type, summary } = filterByLevel[indexFilter]
 
     newText = lang === 'en' ? summary.en : summary.es
-    newType = type
+    newType = `${type} ❗❓`
   }
 
   if ( optionSelect === 'dare') {
@@ -102,7 +110,7 @@ const getRandomOutput = (optionQuery, level, lang) => {
     const { type, summary } = filterByLevel[indexFilter]
 
     newText = lang === 'en' ? summary.en : summary.es
-    newType = type
+    newType = `${type} 🔥`
   }
 
   upDatedView(newType, newText)
@@ -123,13 +131,16 @@ const getCustomLevel = (e) => {
       let index = customLevel.indexOf(elementSelect.dataset.level)
       customLevel.pop(index)
     }
-    console.log(customLevel )
   }
+}
+const onChangeFont = ({target}) => {
+  body.style.fontFamily = target.value
 }
 
 containerBtn.addEventListener('click', onClickAction)
 inputLang.addEventListener('change', onChangeLang)
 containerSetting.addEventListener('click', getCustomLevel)
+inputFont.addEventListener('change', onChangeFont)
 
 getTruthAndDare()
 
