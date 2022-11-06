@@ -11,7 +11,12 @@ const containerSetting = document.querySelector('#setting')
 const containerType = document.querySelector('#type')
 const inputFont = document.querySelector('#font-family')
 const body = document.querySelector('body')
+const progress = document.querySelector('.progress-bar')
+const containerProgress = document.querySelector('.container-progress')
+const btnPlay = document.querySelector('#btn-play')
+const sound = document.getElementById('sound')
 const customLevel = []
+let timeActual
 
 let textInit = inputLang.value === 'en' ? 'They are ready?' : '¿Están listos?'
 
@@ -19,7 +24,6 @@ window.onload = () => {
   display.innerText = textInit
   animateText()
 };
-
 
 const getTruthAndDare = () => {
   GENERALDATA.forEach(item => {
@@ -41,8 +45,7 @@ const onChangeLang = () => {
 }
 
 const getRandomIndex = (max) => {
-  return Math.floor(Math.random() * max);
-
+  return Math.floor(Math.random() * parseInt(max));
 }
 
 const animateText = () => {
@@ -53,6 +56,17 @@ const animateText = () => {
     duration: 300,
     iterations: 1,
   })
+}
+
+const soundTime = () => {
+  sound.muted = false
+  sound.play()
+  
+  setTimeout(()=> {
+    sound.muted = true
+    document.querySelector('.container-progress').style.display = ''
+    progress.style.width = '0%'
+  }, 4000)
 }
 
 const upDatedView = (type, text) => {
@@ -71,15 +85,18 @@ const upDatedView = (type, text) => {
 
 const getRandomLevel = () => {
   let levelSelected
+  let randomLevel
+  let defaultLevel = 6
 
-  if (customLevel.length !== 0) {
+  if (customLevel.length != 0) {
     let indexLevelCustom = getRandomIndex(customLevel.length)
     levelSelected = customLevel[indexLevelCustom]
-  }
-  let defaultLevel = 5
-  let randomLevel = getRandomIndex(levelSelected || defaultLevel)
+    randomLevel = levelSelected
 
-  return randomLevel
+    return randomLevel
+  }
+
+  return randomLevel = getRandomIndex(defaultLevel)
 }
 
 const getRandomOutput = (optionQuery, level, lang) => {
@@ -97,8 +114,19 @@ const getRandomOutput = (optionQuery, level, lang) => {
 
   if ( optionSelect === 'truth') {
     const filterByLevel = TRUTH.filter(item => item.level == level)
+    if (filterByLevel.length === 0) return;
+
     const indexFilter = getRandomIndex(filterByLevel.length)
-    const { type, summary } = filterByLevel[indexFilter]
+    const { type, summary, time } = filterByLevel[indexFilter]
+
+    if(time !== '') {
+      timeActual = time
+      containerProgress.style.display = 'grid'
+      btnPlay.style.display = 'block' 
+    } else {
+      containerProgress.style.display = ''
+      sound.muted = true
+    }
 
     newText = lang === 'en' ? summary.en : summary.es
     newType = `${type} ❗❓`
@@ -106,8 +134,19 @@ const getRandomOutput = (optionQuery, level, lang) => {
 
   if ( optionSelect === 'dare') {
     const filterByLevel = DARE.filter(item => item.level == level)
+    if (filterByLevel.length === 0) return;
+
     const indexFilter = getRandomIndex(filterByLevel.length)
-    const { type, summary } = filterByLevel[indexFilter]
+    const { type, summary, time } = filterByLevel[indexFilter]
+
+    if(time !== '') {
+      timeActual = time
+      containerProgress.style.display = 'grid'
+      btnPlay.style.display = 'block' 
+    } else {
+      containerProgress.style.display = ''
+      sound.muted = true
+    }
 
     newText = lang === 'en' ? summary.en : summary.es
     newType = `${type} 🔥`
@@ -137,10 +176,29 @@ const onChangeFont = ({target}) => {
   body.style.fontFamily = target.value
 }
 
+const barProgress = () => {
+  btnPlay.style.display = 'none'
+  let countTime = 0
+
+  let interval = setInterval(()=> {
+  if(countTime !== parseInt(timeActual) + 1) {
+      let percentage = countTime * 100 / timeActual
+      progress.style.width = `${percentage}%`
+      progress.innerText = `${parseInt(percentage)}%`
+      countTime++
+    } else {
+      soundTime()
+      clearInterval(interval)
+    }
+    },1000)
+}
+
+
 containerBtn.addEventListener('click', onClickAction)
 inputLang.addEventListener('change', onChangeLang)
 containerSetting.addEventListener('click', getCustomLevel)
 inputFont.addEventListener('change', onChangeFont)
+btnPlay.addEventListener('click', barProgress)
 
 getTruthAndDare()
 

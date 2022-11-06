@@ -1,0 +1,79 @@
+[
+  {
+    "id": "47",
+    "level": "2",
+    "summary": {
+      "en": "Give a 3 minute stand-up comedy routine",
+      "es": "Proporcione una rutina de comedia stand-up de 3 minutos"
+    },
+    "time": "5",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": "66",
+    "level": "0",
+    "summary": {
+      "en": "Brush someone else’s teeth",
+      "es": "cepillar los dientes de otra persona"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": "79",
+    "level": "2",
+    "summary": {
+      "en": "Wear a finger moustache for the next 5 minutes",
+      "es": "Use un bigote de dedo durante los próximos 5 minutos"
+    },
+    "time": "5",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": "43",
+    "level": "2",
+    "summary": {
+      "en": "Do you like to exercise?",
+      "es": "¿Le gusta hacer ejercicio?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": "43",
+    "level": "2",
+    "summary": {
+      "en": "Do you like to exercise?",
+      "es": "¿Le gusta hacer ejercicio?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": "43",
+    "level": "2",
+    "summary": {
+      "en": "Do you like to exercise?",
+      "es": "¿Le gusta hacer ejercicio?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": "43",
+    "level": "4",
+    "summary": {
+      "en": "Ask your partner to blindfold you and choose a part of their body to kiss, enliven the part you kissed.",
+      "es": "Pidele a tu pareja que te vende los ojo y que elija una parte de su cuerpo para besar, avivina la parte besaste."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  }
+]

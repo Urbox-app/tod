@@ -15,8 +15,9 @@
   <div id="app">
     <div class="container">
       <div class="row my-4">
-        <div class="col-9 text-center text-white">
-          <h1>Truth or Dare</h1>
+        <div class="col-9 text-center text-white d-flex align-center justify-content-center align-items-center">
+          <h1 class="m-0">Truth or Dare</h1>
+          <span class="material-icons md-18 text-danger" style="font-size: 2.5rem;">local_fire_department</span>
         </div>
 
         <div class="col-3">
@@ -54,24 +55,30 @@
                 <p id="display-text"></p>
               </div>
             </div>
+            <div class="text-white container-progress">
+              <div id="btn-play" style="font-size:1.5rem">▶</div>
+              <div class="progress my-4">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 0%">75</div>
+              </div>
+            </div>
           </div>
           <div class="container-btn">
             <div class="mt-3">
-              <button data-action="truth" id="truth" type="button" class="btn btn-primary btn-block">
+              <button data-action="truth" id="truth" type="button" class="btn btn-block text-white"  style="background-color: #002d88 ;">
                 <span class="material-icons md-18">question_mark</span>
                 Truth
               </button>
               </div>
               
               <div class="mt-3">
-                <button data-action="random" id="random" type="button" class="btn btn-warning btn-block">
+                <button data-action="random" id="random" type="button" class="btn btn-block" style="background-color: #ffd58c;">
                   <span class="material-icons md-18">autorenew</span>
                   Random
                 </button>
               </div>
               
               <div class="mt-3">
-              <button data-action="dare" id="dare" type="button" class="btn btn-danger btn-block">
+              <button data-action="dare" id="dare" type="button" class="btn btn-danger btn-block" >
                 <span class="material-icons md-18">local_fire_department</span>
                 Dare
               </button>
@@ -139,6 +146,12 @@
       </div> 
     </div>
   </div>
+  </div>
+
+  <div>
+      <audio id="sound" src="https://actions.google.com/sounds/v1/alarms/alarm_clock.ogg">
+        Your browser does not support the <code>audio</code> element.
+      </audio>
   </div>
   
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

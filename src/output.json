@@ -3102,17 +3102,6 @@
     "type": "Truth"
   },
   {
-    "id": "155",
-    "level": "5",
-    "summary": {
-      "en": "Send a nude to your ex",
-      "es": "Envía un desnudo a tu ex"
-    },
-    "time": "",
-    "turns": "",
-    "type": "Dare"
-  },
-  {
     "id": "209",
     "level": "2",
     "summary": {
@@ -5162,8 +5151,8 @@
     "id": "243",
     "level": "2",
     "summary": {
-      "en": "How people have you slept with on campus?",
-      "es": "¿Con cuántas personas te has acostado en el campus?"
+      "en": "How many people have you slept with?",
+      "es": "¿Con cuántas personas te has acostado?"
     },
     "time": "",
     "turns": "",
@@ -6092,5 +6081,4090 @@
     "time": "",
     "turns": "",
     "type": "Truth"
-  }
+  },
+  {
+    "id": 554,
+    "level": "5",
+    "summary": {
+      "en": "Kill yourself",
+      "es": "matate a ti mismo"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 555,
+    "level": "5",
+    "summary": {
+      "en": "Invite one of your friends over for threesome.",
+      "es": "Invita a uno de tus amigos a un trío."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 556,
+    "level": "4",
+    "summary": {
+      "en": "Give your partner head for 3 minutes.",
+      "es": "Dale a tu pareja la cabeza durante 3 minutos."
+    },
+    "time": "180",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 557,
+    "level": "5",
+    "summary": {
+      "en": "Spank person in front of you as hard as you can.",
+      "es": "Azota a la persona frente a ti tan fuerte como puedas."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 558,
+    "level": "5",
+    "summary": {
+      "en": "Try on someone else's underwear.",
+      "es": "Pruébate la ropa interior de otra persona."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 559,
+    "level": "4",
+    "summary": {
+      "en": "Take off 3rd person's (counting to the left) underwear using only your teeth.",
+      "es": "Quítese la ropa interior de la tercera persona (contando hacia la izquierda) usando solo los dientes."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 561,
+    "level": "4",
+    "summary": {
+      "en": "Let someone put a finger in your booty.",
+      "es": "Deja que alguien ponga un dedo en tu botín."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 562,
+    "level": "4",
+    "summary": {
+      "en": "Take off your pants for the rest of the game.",
+      "es": "Quítate los pantalones por el resto del juego."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 563,
+    "level": "4",
+    "summary": {
+      "en": "Take off your shirt for the rest of the game.",
+      "es": "Quítate la camiseta por el resto del juego."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 564,
+    "level": "4",
+    "summary": {
+      "en": "Make out with the person to the right of you.",
+      "es": "Besarte con la persona a tu derecha."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 565,
+    "level": "4",
+    "summary": {
+      "en": "Put your hand down 4rd person's (counting to the right) pants until the next round.",
+      "es": "Baje la mano por los pantalones de la 4ª persona (contando hacia la derecha) hasta la siguiente ronda."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 566,
+    "level": "5",
+    "summary": {
+      "en": "Close your eyes, scroll through your contacts list and tell me the sexiest thing about the person you you land on.",
+      "es": "Cierra los ojos, desplázate por tu lista de contactos y dime lo más sexy de la persona con la que aterrizas."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 567,
+    "level": "5",
+    "summary": {
+      "en": "Touch tongues with someone of different sex.",
+      "es": "Tocar lenguas con alguien de distinto sexo."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 568,
+    "level": "4",
+    "summary": {
+      "en": "Blindfold yourself, spin around for ten seconds, who ever you are pointing to at the end, you have to kiss him/her.",
+      "es": "Véndete los ojos, da vueltas durante diez segundos, a quien sea que estés señalando al final, tienes que besarlo."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 569,
+    "level": "4",
+    "summary": {
+      "en": "Show person in front of you the sexiest picture you have on your phone.",
+      "es": "Muéstrale a la persona que tienes delante la imagen más sexy que tienes en tu teléfono."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 570,
+    "level": "3",
+    "summary": {
+      "en": "Take off your bra but leave your shirt on.",
+      "es": "Quítate el sostén pero déjate la camisa puesta."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 571,
+    "level": "4",
+    "summary": {
+      "en": "Eat someone's booty out.",
+      "es": "Comer el botín de alguien."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 572,
+    "level": "3",
+    "summary": {
+      "en": "Sing the chorus of a song you’ve had sex to.",
+      "es": "Canta el coro de una canción con la que has tenido sexo."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 573,
+    "level": "4",
+    "summary": {
+      "en": "Make love with your partner for 3 minutes only.",
+      "es": "Haz el amor con tu pareja solo durante 3 minutos."
+    },
+    "time": "180",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 574,
+    "level": "4",
+    "summary": {
+      "en": "Send a nude to your partner.",
+      "es": "Envía un desnudo a tu pareja."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 575,
+    "level": "5",
+    "summary": {
+      "en": "Give a hand job for 3 minutes.",
+      "es": "Dar un trabajo manual durante 3 minutos."
+    },
+    "time": "180",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 577,
+    "level": "3",
+    "summary": {
+      "en": "With your eyes closed and the other person or people standing across from you in the room, walk with your hands out. You have to kiss the first person you touch, where you touch them.",
+      "es": "Con los ojos cerrados y la otra persona o personas de pie frente a usted en la habitación, camine con las manos extendidas. Tienes que besar a la primera persona que tocas, donde la tocas."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 578,
+    "level": "4",
+    "summary": {
+      "en": "Try to take off your underwear without flashing anyone.",
+      "es": "Intenta quitarte la ropa interior sin mostrar a nadie."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 579,
+    "level": "4",
+    "summary": {
+      "en": "Take off your partner’s bra (or nearest woman’s) using only your teeth.",
+      "es": "Quítale el sostén a tu pareja (o a la mujer más cercana) usando solo tus dientes."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 580,
+    "level": "5",
+    "summary": {
+      "en": "Twerk in only your underwear.",
+      "es": "Twerk solo con tu ropa interior."
+    },
+    "time": "60",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 581,
+    "level": "4",
+    "summary": {
+      "en": "You have to undress down to your accessories and skivvies. If you want to keep any clothes on, you have to take a shot for every piece of clothing you want to keep.",
+      "es": "Tienes que desvestirte hasta quedarte con tus accesorios y calzoncillos. Si desea conservar algo de ropa, debe tomar una foto de cada prenda que desee conservar."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 582,
+    "level": "4",
+    "summary": {
+      "en": "Make your partner cum using only your hands.",
+      "es": "Haz que tu pareja se corra usando solo tus manos."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 583,
+    "level": "5",
+    "summary": {
+      "en": "Ride someone's dick for 3 minutes only.",
+      "es": "Cabalga la polla de alguien solo durante 3 minutos."
+    },
+    "time": "180",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 584,
+    "level": "4",
+    "summary": {
+      "en": "Take someone's underwear using only your teeth.",
+      "es": "Toma la ropa interior de alguien usando solo tus dientes."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 585,
+    "level": "4",
+    "summary": {
+      "en": "Give head to the person next to you for 2 full songs.",
+      "es": "Dale cabeza a la persona a tu lado por 2 canciones completas."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 586,
+    "level": "5",
+    "summary": {
+      "en": "Pick your favourite porn, let’s watch it together and do exactly what they do.",
+      "es": "Elige tu porno favorito, veámoslo juntos y hagamos exactamente lo que ellos hacen."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 587,
+    "level": "5",
+    "summary": {
+      "en": "Give someone head for three full songs, or until I cum, whichever comes first.",
+      "es": "Dale mamada a alguien por tres canciones completas, o hasta que me corra, lo que ocurra primero."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 588,
+    "level": "4",
+    "summary": {
+      "en": "Pull up your favourite porn site your phone right now.",
+      "es": "Abra su sitio porno favorito en su teléfono ahora mismo."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 589,
+    "level": "4",
+    "summary": {
+      "en": "Let someone sit on your face while you give him/her head.",
+      "es": "Deje que alguien se siente en su cara mientras le da la cabeza."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 590,
+    "level": "3",
+    "summary": {
+      "en": "Have someone blindfold you. Then, everyone in the group kisses you on the cheek, and you have to either say which one is your partner, and then kiss them on the lips, OR, you have to choose one person that you want to kiss on the lips.",
+      "es": "Pídele a alguien que te venda los ojos. Luego, todos en el grupo te besan en la mejilla, y tienes que decir cuál es tu pareja y luego besarlo en los labios, O tienes que elegir a una persona a la que quieras besar en los labios."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 591,
+    "level": "3",
+    "summary": {
+      "en": "Have you ever thought about cheating on your bf/gf but never actually done it?",
+      "es": "¿Alguna vez has pensado en engañar a tu novio/a pero nunca lo has hecho?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 592,
+    "level": "3",
+    "summary": {
+      "en": "Have you ever said „I love you” without feeling it?",
+      "es": "¿Alguna vez has dicho \"te amo\" sin sentirlo?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 593,
+    "level": "4",
+    "summary": {
+      "en": "Have you ever stalked your ex boyfriend/girlfriend or ex friend on social media?",
+      "es": "¿Alguna vez has acechado a tu ex novio/novia o ex amigo en las redes sociales?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 594,
+    "level": "4",
+    "summary": {
+      "en": "Have you ever had a crush on someone (not your partner ofc) while in relationship?",
+      "es": "¿Alguna vez te has enamorado de alguien (que no sea tu pareja) mientras estabas en una relación?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 595,
+    "level": "4",
+    "summary": {
+      "en": "Have you ever paid somebody compliments just to get laid?",
+      "es": "¿Alguna vez le has hecho cumplidos a alguien solo para echar un polvo?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 596,
+    "level": "5",
+    "summary": {
+      "en": "What was your worst sex experience?",
+      "es": "¿Cuál fue tu peor experiencia sexual?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 597,
+    "level": "3",
+    "summary": {
+      "en": "What’s the least amount of time you’ve known someone before you’ve made out with them?",
+      "es": "¿Cuál es la menor cantidad de tiempo que has conocido a alguien antes de besarte con ellos?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 598,
+    "level": "4",
+    "summary": {
+      "en": "Have you ever been in an open relationship?",
+      "es": "¿Alguna vez has estado en una relación abierta?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 599,
+    "level": "4",
+    "summary": {
+      "en": "Have you ever cheated on your partner?",
+      "es": "¿Alguna vez has engañado a tu pareja?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 600,
+    "level": "5",
+    "summary": {
+      "en": "What’s the least amount of time you’ve known someone before you’ve had sex with them?",
+      "es": "¿Cuál es la menor cantidad de tiempo que has conocido a alguien antes de tener sexo con ellos?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 601,
+    "level": "4",
+    "summary": {
+      "en": "If you had to choose between only oral sex or only penetrative sex for the rest of your life, which one would you pick?",
+      "es": "Si tuvieras que elegir entre solo sexo oral o solo sexo con penetración por el resto de tu vida, ¿cuál elegirías?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 602,
+    "level": "4",
+    "summary": {
+      "en": "Have you ever experimented with the same sex as yours just for fun?",
+      "es": "¿Alguna vez has experimentado con el mismo sexo que el tuyo solo por diversión?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 603,
+    "level": "4",
+    "summary": {
+      "en": "Do you like to be spit on during sex?",
+      "es": "¿Te gusta que te escupan durante el sexo?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 604,
+    "level": "3",
+    "summary": {
+      "en": "Have you ever taken someone’s virginity?",
+      "es": "¿Alguna vez has tomado la virginidad de alguien?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 605,
+    "level": "3",
+    "summary": {
+      "en": "Of all the people here - who’s the hottest?",
+      "es": "De todas las personas aquí, ¿quién es la más sexy?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 606,
+    "level": "3",
+    "summary": {
+      "en": "Have you ever lied in this game?",
+      "es": "¿Alguna vez has mentido en este juego?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 607,
+    "level": "4",
+    "summary": {
+      "en": "Is sex better when you’re in love, or do you prefer one night stands/fwb?",
+      "es": "¿Es mejor el sexo cuando estás enamorado o prefieres aventuras de una noche/fwb?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 608,
+    "level": "5",
+    "summary": {
+      "en": "Who is the most inappropriate person you’ve had a sexual fantasy about?",
+      "es": "¿Quién es la persona más inapropiada con la que has tenido una fantasía sexual?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 610,
+    "level": "5",
+    "summary": {
+      "en": "What is the largest age gap you’ve had between you and someone you’ve had sex with?",
+      "es": "¿Cuál es la diferencia de edad más grande que ha tenido entre usted y alguien con quien ha tenido relaciones sexuales?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 611,
+    "level": "4",
+    "summary": {
+      "en": "Which triangle would you prefer - two men and one woman or two women and one man?",
+      "es": "¿Qué triángulo preferirías: dos hombres y una mujer o dos mujeres y un hombre?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 612,
+    "level": "4",
+    "summary": {
+      "en": "Would you like to take part in a role play?",
+      "es": "¿Te gustaría participar en un juego de roles?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 613,
+    "level": "4",
+    "summary": {
+      "en": "Of all the people here - who do you think gives the best blowjobs?",
+      "es": "De todas las personas aquí, ¿quién crees que da las mejores mamadas?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 614,
+    "level": "4",
+    "summary": {
+      "en": "Have you ever had a triangle?",
+      "es": "¿Alguna vez has tenido un triángulo?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 615,
+    "level": "4",
+    "summary": {
+      "en": "What was your craziest sexual experience?",
+      "es": "¿Cuál fue tu experiencia sexual más loca?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 616,
+    "level": "4",
+    "summary": {
+      "en": "What’s #1 on your sexual bucket list right now?",
+      "es": "¿Cuál es el número 1 en tu lista de deseos sexuales en este momento?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 617,
+    "level": "3",
+    "summary": {
+      "en": "Would you rather dominate someone or be dominated?",
+      "es": "¿Prefieres dominar a alguien o ser dominado?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 618,
+    "level": "5",
+    "summary": {
+      "en": "How many sex partners do you believe is “too many”?",
+      "es": "¿Cuántas parejas sexuales cree que son “demasiadas”?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 619,
+    "level": "2",
+    "summary": {
+      "en": "What is the largest age gap you’ve had between you and someone you’ve kissed?",
+      "es": "¿Cuál es la diferencia de edad más grande que has tenido entre tú y alguien a quien has besado?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 620,
+    "level": "4",
+    "summary": {
+      "en": "Would you go to bed with someone you just met?",
+      "es": "¿Te acostarías con alguien que acabas de conocer?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 621,
+    "level": "4",
+    "summary": {
+      "en": "If you had to have sex with one person in this room - who would it be?",
+      "es": "Si tuvieras que tener sexo con una persona en esta habitación, ¿quién sería?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 622,
+    "level": "4",
+    "summary": {
+      "en": "What kind of porn did you last watch?",
+      "es": "¿Qué tipo de porno viste por última vez?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 623,
+    "level": "4",
+    "summary": {
+      "en": "What toys have you already used in your bed and which ones would you like to try out in the future?",
+      "es": "¿Qué juguetes has usado ya en tu cama y cuáles te gustaría probar en el futuro?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 624,
+    "level": "4",
+    "summary": {
+      "en": "What’s the sexiest thing anyone’s ever said to you?",
+      "es": "¿Qué es lo más sexy que alguien te ha dicho?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 625,
+    "level": "4",
+    "summary": {
+      "en": "What’s the least sexy thing anyone’s ever said to you (while trying to be sexy)?",
+      "es": "¿Qué es lo menos sexy que alguien te ha dicho (mientras intentaba ser sexy)?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 626,
+    "level": "4",
+    "summary": {
+      "en": "If you had the power to give or receive unlimited orgasms, what would you pick?",
+      "es": "Si tuvieras el poder de dar o recibir orgasmos ilimitados, ¿qué elegirías?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 627,
+    "level": "3",
+    "summary": {
+      "en": "How old do you think is “too old” for someone to still be a virgin?",
+      "es": "¿Qué edad crees que es “demasiado mayor” para que alguien siga siendo virgen?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 628,
+    "level": "5",
+    "summary": {
+      "en": "What is the weirdest place you’ve had sex in?",
+      "es": "¿Cuál es el lugar más raro en el que has tenido sexo?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 629,
+    "level": "3",
+    "summary": {
+      "en": "What’s something most people don’t like in bed, but you can’t get enough of?",
+      "es": "¿Qué es algo que a la mayoría de la gente no le gusta en la cama, pero de lo que no te cansas?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 630,
+    "level": "5",
+    "summary": {
+      "en": "Of all the people here - which one would you like to fuck, which one would you like to marry and which one would you like to kill?",
+      "es": "De todas las personas aquí, ¿con cuál te gustaría follar, con cuál te gustaría casarte y con cuál te gustaría matar?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 631,
+    "level": "5",
+    "summary": {
+      "en": "Have you ever tried anal sex?",
+      "es": "¿Alguna vez has probado el sexo anal?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 632,
+    "level": "3",
+    "summary": {
+      "en": "Have you ever sexted anyone?",
+      "es": "¿Alguna vez has sexteado a alguien?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 634,
+    "level": "2",
+    "summary": {
+      "en": "What’s your favorite body part on yourself?",
+      "es": "¿Cuál es tu parte favorita de tu cuerpo?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 635,
+    "level": "4",
+    "summary": {
+      "en": "Do you have any sex tapes?",
+      "es": "¿Tienes algún video sexual?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 636,
+    "level": "4",
+    "summary": {
+      "en": "How old were you when you lost your virginity?",
+      "es": "¿Qué edad tenías cuando perdiste la virginidad?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 637,
+    "level": "3",
+    "summary": {
+      "en": "What’s the least amount of time that’s passed between you having sex with two different people?",
+      "es": "¿Cuál es la menor cantidad de tiempo que ha pasado entre tener sexo con dos personas diferentes?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 638,
+    "level": "0",
+    "summary": {
+      "en": "Have you ever called someone (or been called) \"Daddy\"?",
+      "es": "¿Alguna vez has llamado a alguien (o te han llamado) \"papá\"?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 639,
+    "level": "3",
+    "summary": {
+      "en": "What one sexual experience would you want to erase from your memory?",
+      "es": "¿Qué experiencia sexual te gustaría borrar de tu memoria?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 640,
+    "level": "4",
+    "summary": {
+      "en": "What’s the most public place you’d fuck someone?",
+      "es": "¿Cuál es el lugar más público donde te follarías a alguien?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+
+  {
+    "id": 641,
+    "level": "0",
+    "summary": {
+      "en": "When was your first kiss?",
+      "es": "¿Cuándo fue tu primer beso?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  
+  {
+    "id": 642,
+    "level": "5",
+    "summary": {
+      "en": "If you got to have a threesome with people in this room, who would you do it with and why?",
+      "es": "Si tuvieras que hacer un trío con personas en esta sala, ¿con quién lo harías y por qué?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  
+  {
+    "id": 643,
+    "level": "3",
+    "summary": {
+      "en": "It’s totally not legal to do this but if it were . . . . [fill in the blank].",
+      "es": "No es totalmente legal hacer esto, pero si lo fuera. . . . [completar el espacio en blanco]."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  
+  {
+    "id": 644,
+    "level": "4",
+    "summary": {
+      "en": "Have you ever thought about someone else while having sex with your partner?",
+      "es": "¿Alguna vez has pensado en otra persona mientras tenías sexo con tu pareja?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  
+  {
+    "id": 645,
+    "level": "3",
+    "summary": {
+      "en": "Have you ever been proposed a one night stand and refused?",
+      "es": "¿Alguna vez te propusieron una aventura de una noche y la rechazaron?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  
+  {
+    "id": 646,
+    "level": "4",
+    "summary": {
+      "en": "Would you rather sleep with only insanely hot people or sleep with only people who think you’re insanely hot?",
+      "es": "¿Preferirías acostarte solo con gente locamente sexy o dormir solo con gente que piensa que eres locamente sexy?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  
+  {
+    "id": 647,
+    "level": "5",
+    "summary": {
+      "en": "Did you want to just fuck someone besides your partner, when you were in a relationship?",
+      "es": "¿Querías simplemente follar con alguien además de tu pareja, cuando estabas en una relación?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 648,
+    "level": "3",
+    "summary": {
+      "en": "Who’s the most attractive here?",
+      "es": "¿Quién es el más atractivo aquí?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 649,
+    "level": "4",
+    "summary": {
+      "en": "Have you ever been attracted to the same sex?",
+      "es": "¿Alguna vez te has sentido atraído por personas del mismo sexo?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 651,
+    "level": "4",
+    "summary": {
+      "en": "What’s a common fetish that you would never try in real life?",
+      "es": "¿Cuál es un fetiche común que nunca probarías en la vida real?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 652,
+    "level": "4",
+    "summary": {
+      "en": "If you had to choose between having sex with one person for the rest of your life or never being able to have sex with the same person more than once, what would you pick?",
+      "es": "Si tuvieras que elegir entre tener sexo con una persona por el resto de tu vida o nunca poder tener sexo con la misma persona más de una vez, ¿qué elegirías?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 653,
+    "level": "4",
+    "summary": {
+      "en": "Who would turn you on from people here?",
+      "es": "¿Quién te excitaría de la gente de aquí?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 654,
+    "level": "5",
+    "summary": {
+      "en": "Do you want to try anal sex?",
+      "es": "¿Quieres probar el sexo anal?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 655,
+    "level": "4",
+    "summary": {
+      "en": "If you could double the amount in your bank account or double the amount of inches you have down there (for men)/double your breast size (for women), which one would you pick?",
+      "es": "Si pudieras duplicar la cantidad en tu cuenta bancaria o duplicar la cantidad de pulgadas que tienes ahí abajo (para hombres)/doblar el tamaño de tus senos (para mujeres), ¿cuál elegirías?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 656,
+    "level": "4",
+    "summary": {
+      "en": "Do you like to be treated like a slut in bed?",
+      "es": "¿Te gusta que te traten como una zorra en la cama?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 657,
+    "level": "3",
+    "summary": {
+      "en": "Would you do it for money?",
+      "es": "¿Lo harías por dinero?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 659,
+    "level": "5",
+    "summary": {
+      "en": "Would you suck off the last guy that was before you in the queue?",
+      "es": "¿Se la chuparías al último chico que estaba antes que tú en la cola?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 660,
+    "level": "3",
+    "summary": {
+      "en": "Who’s the hottest person here?",
+      "es": "¿Quién es la persona más sexy aquí?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 661,
+    "level": "5",
+    "summary": {
+      "en": "Would you rather fuck someone 20 years older or 20 years younger?",
+      "es": "¿Preferirías follarte a alguien 20 años mayor o 20 años menor?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 662,
+    "level": "5",
+    "summary": {
+      "en": "Do you have any spicy pictures or videos saved on your phone?",
+      "es": "¿Tienes fotos o videos picantes guardados en tu teléfono?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 663,
+    "level": "4",
+    "summary": {
+      "en": "Do you like telling what to do in bed, or do you prefer to be told what to do?",
+      "es": "¿Te gusta decir qué hacer en la cama o prefieres que te digan qué hacer?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 664,
+    "level": "4",
+    "summary": {
+      "en": "Who fucks the best from people in here in your opinion?",
+      "es": "¿Quién folla mejor de la gente aquí en tu opinión?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 665,
+    "level": "3",
+    "summary": {
+      "en": "Who here are you most jealous of?",
+      "es": "¿De quién aquí estás más celoso?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 666,
+    "level": "4",
+    "summary": {
+      "en": "What would be more thrilling: angry sex or make-up sex?",
+      "es": "¿Qué sería más emocionante: el sexo enojado o el sexo de reconciliación?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 667,
+    "level": "4",
+    "summary": {
+      "en": "Does sex with 2 people of other gender turn you on?",
+      "es": "¿Te excita el sexo con 2 personas de otro género?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 668,
+    "level": "1",
+    "summary": {
+      "en": "Who would you fuck with from people here, if no one would found out about it?",
+      "es": "¿A quién joderías de la gente de aquí, si nadie se enterara?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 669,
+    "level": "5",
+    "summary": {
+      "en": "How do you like the taste when you go down on someone?",
+      "es": "¿Cómo te gusta el sabor cuando le das sexo oral a alguien?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 670,
+    "level": "3",
+    "summary": {
+      "en": "What’s the biggest lie you’ve told in order to get someone into bed?",
+      "es": "¿Cuál es la mentira más grande que has dicho para llevar a alguien a la cama?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 671,
+    "level": "2",
+    "summary": {
+      "en": "What’s the worst kiss you’ve ever been given?",
+      "es": "¿Cuál es el peor beso que te han dado?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 672,
+    "level": "3",
+    "summary": {
+      "en": "What’s the most number of times you’ve done it in one day?",
+      "es": "¿Cuál es la mayor cantidad de veces que lo has hecho en un día?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 673,
+    "level": "2",
+    "summary": {
+      "en": "How many people have you kissed?",
+      "es": "¿A cuántas personas has besado?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 674,
+    "level": "3",
+    "summary": {
+      "en": "What’s your favorite body part on a guy?",
+      "es": "¿Cuál es tu parte del cuerpo favorita en un chico?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 675,
+    "level": "4",
+    "summary": {
+      "en": "Do you like being drunk when having sex?",
+      "es": "¿Te gusta estar borracho cuando tienes sexo?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 676,
+    "level": "4",
+    "summary": {
+      "en": "Have you made with someone of the same gender?",
+      "es": "¿Has hecho con alguien del mismo género?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 677,
+    "level": "3",
+    "summary": {
+      "en": "Have you ever had a one night stand?",
+      "es": "¿Alguna vez has tenido una aventura de una noche?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 678,
+    "level": "4",
+    "summary": {
+      "en": "What’s the kinkiest thing you’ve ever done?",
+      "es": "¿Qué es lo más pervertido que has hecho?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 679,
+    "level": "4",
+    "summary": {
+      "en": "Favorite position?",
+      "es": "¿Posición favorita?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 680,
+    "level": "4",
+    "summary": {
+      "en": "Have you ever considered a threesome?",
+      "es": "¿Alguna vez has considerado un trío?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 681,
+    "level": "3",
+    "summary": {
+      "en": "Where is your favourite place to be kissed?",
+      "es": "¿Cuál es tu lugar favorito para ser besado?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 682,
+    "level": "4",
+    "summary": {
+      "en": "How many people saw you without anything?",
+      "es": "¿Cuántas personas te vieron sin nada?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 683,
+    "level": "3",
+    "summary": {
+      "en": "What do you like the most about your partner?",
+      "es": "¿Qué es lo que más te gusta de tu pareja?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 684,
+    "level": "4",
+    "summary": {
+      "en": "What sex act would you never do again?",
+      "es": "¿Qué acto sexual nunca volverías a hacer?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 686,
+    "level": "2",
+    "summary": {
+      "en": "Describe your partner.",
+      "es": "Describa a su pareja."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 687,
+    "level": "4",
+    "summary": {
+      "en": "When was the last time you trimmed?",
+      "es": "¿Cuándo fue la última vez que recortaste?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 688,
+    "level": "4",
+    "summary": {
+      "en": "What’s one thing guaranteed to turn you on?",
+      "es": "¿Qué es lo que garantiza que te excite?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 689,
+    "level": "4",
+    "summary": {
+      "en": "Suppose person in front of you is yours for 20 minutes, what is the first thing you want to do with him/her?",
+      "es": "Supongamos que la persona que tienes delante es tuya durante 20 minutos, ¿qué es lo primero que quieres hacer con él/ella?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 690,
+    "level": "2",
+    "summary": {
+      "en": "Do you like to have tattoos on your hand?",
+      "es": "¿Te gusta tener tatuajes en la mano?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 691,
+    "level": "4",
+    "summary": {
+      "en": "What was the most powerful sexual experience you’ve ever had?",
+      "es": "¿Cuál fue la experiencia sexual más poderosa que has tenido?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 692,
+    "level": "4",
+    "summary": {
+      "en": "What’s your dirtiest sex fantasy?",
+      "es": "¿Cuál es tu fantasía sexual más sucia?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 693,
+    "level": "4",
+    "summary": {
+      "en": "Have you ever kicked someone out of your bed immediately after having sex?",
+      "es": "¿Alguna vez has echado a alguien de tu cama inmediatamente después de tener relaciones sexuales?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 694,
+    "level": "4",
+    "summary": {
+      "en": "Would you ever watch your partner have sex with someone else?",
+      "es": "¿Alguna vez verías a tu pareja tener sexo con otra persona?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 695,
+    "level": "4",
+    "summary": {
+      "en": "What do you find the sexiest about person on your left?",
+      "es": "¿Qué es lo que encuentras más sexy de la persona a tu izquierda?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 696,
+    "level": "4",
+    "summary": {
+      "en": "Have you ever used a toy?",
+      "es": "¿Alguna vez has usado un juguete?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 697,
+    "level": "4",
+    "summary": {
+      "en": "If you could pick one person to join you and your partner for a threesome, who would it be? (If you are single pick two people)",
+      "es": "Si pudieras elegir a una persona para que se una a ti y a tu pareja en un trío, ¿quién sería? (Si eres soltero elige dos personas)"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 698,
+    "level": "3",
+    "summary": {
+      "en": "What do you prefer lights on or lights off?",
+      "es": "¿Qué prefieres luces encendidas o luces apagadas?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 699,
+    "level": "4",
+    "summary": {
+      "en": "Which one do you prefer the most – rough or smooth?",
+      "es": "¿Cuál prefieres más, rugoso o liso?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 700,
+    "level": "4",
+    "summary": {
+      "en": "What’s a sex act most people like that you think is overrated?",
+      "es": "¿Qué acto sexual le gusta a la mayoría de la gente que crees que está sobrevalorado?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 702,
+    "level": "4",
+    "summary": {
+      "en": "What is the longest you’ve ever given head?",
+      "es": "¿Cuál es el tiempo más largo que has dado en la cabeza?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 703,
+    "level": "4",
+    "summary": {
+      "en": "Would you like to take part in an orgy?,.",
+      "es": "¿Te gustaría participar en una orgía?,."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 704,
+    "level": "4",
+    "summary": {
+      "en": "Do you like giving head?",
+      "es": "¿Te gusta dar cabeza?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 705,
+    "level": "4",
+    "summary": {
+      "en": "Do you prefer to be on top or bottom?",
+      "es": "¿Prefieres estar arriba o abajo?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 706,
+    "level": "4",
+    "summary": {
+      "en": "Do you enjoy rough or slow sex?",
+      "es": "¿Te gusta el sexo duro o lento?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 707,
+    "level": "4",
+    "summary": {
+      "en": "Where is the strangest place you’ve ever had sex?",
+      "es": "¿Cuál es el lugar más extraño en el que has tenido sexo?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 708,
+    "level": "4",
+    "summary": {
+      "en": "Have you ever had sex outside?",
+      "es": "¿Alguna vez has tenido sexo al aire libre?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 710,
+    "level": "5",
+    "summary": {
+      "en": "What is your favourite type of porn?",
+      "es": "¿Cuál es tu tipo de porno favorito?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 711,
+    "level": "5",
+    "summary": {
+      "en": "How do you feel about sex in groups?",
+      "es": "¿Cómo te sientes acerca del sexo en grupo?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 712,
+    "level": "5",
+    "summary": {
+      "en": "If you could invite any of your friends into the bedroom, who would it be?",
+      "es": "Si pudieras invitar a alguno de tus amigos a la habitación, ¿quién sería?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 713,
+    "level": "4",
+    "summary": {
+      "en": "How many times can you do in a day?",
+      "es": "¿Cuántas veces puedes hacer en un día?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 714,
+    "level": "4",
+    "summary": {
+      "en": "What is your least favourite position?",
+      "es": "¿Cuál es tu posición menos favorita?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 715,
+    "level": "5",
+    "summary": {
+      "en": "Who is your favourite porn star?",
+      "es": "¿Quién es tu estrella porno favorita?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 716,
+    "level": "4",
+    "summary": {
+      "en": "Does size matter? And what's the perfect dick size?",
+      "es": "¿Importa el tamaño? ¿Y cuál es el tamaño de pene perfecto?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 719,
+    "level": "4",
+    "summary": {
+      "en": "Do you prefer for your partner to be silent, or do you like moans?",
+      "es": "¿Prefieres que tu pareja guarde silencio o te gustan los gemidos?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 721,
+    "level": "4",
+    "summary": {
+      "en": "Would you ever have sex for money?",
+      "es": "¿Alguna vez tendrías sexo por dinero?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 722,
+    "level": "4",
+    "summary": {
+      "en": "Would you ever want to go to a swingers party?",
+      "es": "¿Te gustaría ir alguna vez a una fiesta de swingers?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 723,
+    "level": "5",
+    "summary": {
+      "en": "Would you ever want to have sex with one of my friends? If so, who?",
+      "es": "¿Alguna vez querrías tener sexo con uno de mis amigos? Si es así, ¿quién?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 724,
+    "level": "5",
+    "summary": {
+      "en": "Have you done role-playing?",
+      "es": "¿Has hecho juegos de rol?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 725,
+    "level": "4",
+    "summary": {
+      "en": "Would you ever eat the booty of person that's sitting in front of you?",
+      "es": "¿Alguna vez te comerías el botín de la persona que está sentada frente a ti?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 726,
+    "level": "4",
+    "summary": {
+      "en": "Do you ever dreamed about the sex you had with someone?",
+      "es": "¿Alguna vez soñaste con el sexo que tuviste con alguien?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 728,
+    "level": "4",
+    "summary": {
+      "en": "Do you prefer to have music in the background, or for it to be be quiet?",
+      "es": "¿Prefieres tener música de fondo, o que sea silencioso?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 729,
+    "level": "4",
+    "summary": {
+      "en": "Do you like drunk sex?",
+      "es": "¿Te gusta el sexo borracho?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 730,
+    "level": "4",
+    "summary": {
+      "en": "Would you ever want to make a video with me?",
+      "es": "¿Alguna vez querrías hacer un video conmigo?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 731,
+    "level": "4",
+    "summary": {
+      "en": "Which part of the body of the person sitting in front of you would like to massage?",
+      "es": "¿Qué parte del cuerpo de la persona sentada frente a ti le gustaría masajear?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 732,
+    "level": "4",
+    "summary": {
+      "en": "Do you like “doggy-style” or “missionary” better?",
+      "es": "¿Te gusta más el estilo perrito o el misionero?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 733,
+    "level": "3",
+    "summary": {
+      "en": "Would you take a shower/bath with person in front of you?",
+      "es": "¿Te ducharías/bañarías con una persona frente a ti?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 734,
+    "level": "4",
+    "summary": {
+      "en": "What is the weirdest fetish you tried out?",
+      "es": "¿Cuál es el fetiche más extraño que probaste?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 735,
+    "level": "4",
+    "summary": {
+      "en": "If you could have one sexual superpower, what would it be?",
+      "es": "Si pudieras tener un superpoder sexual, ¿cuál sería?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 736,
+    "level": "4",
+    "summary": {
+      "en": "What is your favorite part of foreplay?",
+      "es": "¿Cuál es tu parte favorita de los juegos previos?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 737,
+    "level": "5",
+    "summary": {
+      "en": "Has anyone ever caught you having sex?",
+      "es": "¿Alguien te ha pillado teniendo sexo?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 738,
+    "level": "5",
+    "summary": {
+      "en": "Have you ever had sex with more than one person at a time?",
+      "es": "¿Alguna vez ha tenido relaciones sexuales con más de una persona a la vez?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 739,
+    "level": "5",
+    "summary": {
+      "en": "What one sexual experience do you think about most often?",
+      "es": "¿En qué experiencia sexual piensas con más frecuencia?"
+    },
+    "time": "",
+    "turns": "",
+    "type": "Truth"
+  },
+  {
+    "id": 740,
+    "level": "4",
+    "summary": {
+      "en": "Let another player post a status on your social.",
+      "es": "Deja que otro jugador publique un estado en tu red social."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 741,
+    "level": "3",
+    "summary": {
+      "en": "Smell every other players' armpits.",
+      "es": "Huele las axilas de todos los demás jugadores."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 742,
+    "level": "4",
+    "summary": {
+      "en": "Kiss the person to your left.",
+      "es": "Besa a la persona a tu izquierda."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 743,
+    "level": "3",
+    "summary": {
+      "en": "Shower with your clothes on.",
+      "es": "Dúchate con la ropa puesta."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 744,
+    "level": "3",
+    "summary": {
+      "en": "Lick a bar of soap.",
+      "es": "Lame una barra de jabón."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 745,
+    "level": "3",
+    "summary": {
+      "en": "Eat a raw egg.",
+      "es": "Come un huevo crudo."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 746,
+    "level": "3",
+    "summary": {
+      "en": "Call your crush.",
+      "es": "Llama a tu enamorado."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 747,
+    "level": "2",
+    "summary": {
+      "en": "Let the person on your right draw on your face.",
+      "es": "Deja que la persona a tu derecha dibuje en tu cara."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 748,
+    "level": "3",
+    "summary": {
+      "en": "Take a selfie on the toilet and post it.",
+      "es": "Tómate una selfie en el baño y publícala."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 749,
+    "level": "0",
+    "summary": {
+      "en": "Talk in a Jamaican accent until your next turn.",
+      "es": "Habla con acento jamaicano hasta tu próximo turno."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 750,
+    "level": "0",
+    "summary": {
+      "en": "Drink lemon juice.",
+      "es": "Bebe jugo de limón."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 751,
+    "level": "2",
+    "summary": {
+      "en": "Do freestyle rap for 1 minute about the other participants.",
+      "es": "Haga rap de estilo libre durante 1 minuto sobre los otros participantes."
+    },
+    "time": "60",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 752,
+    "level": "3",
+    "summary": {
+      "en": "Crack an egg on our head.",
+      "es": "Rompe un huevo en nuestra cabeza."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 753,
+    "level": "2",
+    "summary": {
+      "en": "Spin around 12 times and try to walk straight.",
+      "es": "Da 12 vueltas y trata de caminar derecho."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 754,
+    "level": "2",
+    "summary": {
+      "en": "Do a cartwheel.",
+      "es": "Haz una voltereta lateral."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 755,
+    "level": "3",
+    "summary": {
+      "en": "Burp the alphabet.",
+      "es": "Eructar el alfabeto."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 756,
+    "level": "4",
+    "summary": {
+      "en": "Eat a packet of hot sauce or ketchup straight.",
+      "es": "Coma un paquete de salsa picante o ketchup solo."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 757,
+    "level": "4",
+    "summary": {
+      "en": "Dance with no music for 1 minute.",
+      "es": "Baila sin música durante 1 minuto."
+    },
+    "time": "60",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 758,
+    "level": "3",
+    "summary": {
+      "en": "Dump a bucket of cold water on your head.",
+      "es": "Échate un balde de agua fría en la cabeza."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 759,
+    "level": "3",
+    "summary": {
+      "en": "Call a friend, pretend it's their birthday, and sing “Happy Birthday” to them.",
+      "es": "Llama a un amigo, finge que es su cumpleaños y cántale \"Feliz cumpleaños\"."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 760,
+    "level": "4",
+    "summary": {
+      "en": "wap clothes with someone of the opposite sex for 2 rounds.",
+      "es": "cambia ropa con alguien del sexo opuesto por 2 rondas."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 761,
+    "level": "4",
+    "summary": {
+      "en": "Put on a blindfold and touch the other players’ faces until you can figure out who it is.",
+      "es": "Ponte una venda en los ojos y toca la cara de los otros jugadores hasta que puedas averiguar quién es."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 762,
+    "level": "3",
+    "summary": {
+      "en": "Give your phone to another player who can send one text saying anything they want to one of your contacts.",
+      "es": "Dale tu teléfono a otro jugador que pueda enviar un mensaje de texto diciendo lo que quiera a uno de tus contactos."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 763,
+    "level": "4",
+    "summary": {
+      "en": "End each sentence with the word “not” until your next turn.",
+      "es": "Termina cada oración con la palabra \"no\" hasta tu próximo turno."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 764,
+    "level": "2",
+    "summary": {
+      "en": "Do an impression of another player until someone can figure out who it is.",
+      "es": "Haga una impresión de otro jugador hasta que alguien pueda averiguar quién es."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 765,
+    "level": "2",
+    "summary": {
+      "en": "Name a famous person that looks like each player.",
+      "es": "Nombra una persona famosa que se parezca a cada jugador."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 766,
+    "level": "2",
+    "summary": {
+      "en": "Make every person in the group smile, keep going until everyone has cracked a smile.",
+      "es": "Haga que cada persona en el grupo sonría, continúe hasta que todos hayan esbozado una sonrisa."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 767,
+    "level": "2",
+    "summary": {
+      "en": "Act like a chicken until your next turn.",
+      "es": "Actúa como un pollo hasta tu próximo turno."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 768,
+    "level": "5",
+    "summary": {
+      "en": "Remove four items of clothing.",
+      "es": "Quítese cuatro prendas de vestir."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 769,
+    "level": "3",
+    "summary": {
+      "en": "Yell out the first word that comes to your mind.",
+      "es": "Grita la primera palabra que te venga a la mente."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 770,
+    "level": "4",
+    "summary": {
+      "en": "Talk in an accent for the next 3 rounds.",
+      "es": "Habla con acento durante las próximas 3 rondas."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 772,
+    "level": "3",
+    "summary": {
+      "en": "Eat a teaspoon of mustard.",
+      "es": "Come una cucharadita de mostaza."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 773,
+    "level": "4",
+    "summary": {
+      "en": "Seduce a member of the same gender in the group.",
+      "es": "Seducir a un miembro del mismo género en el grupo."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 774,
+    "level": "2",
+    "summary": {
+      "en": "Talk without closing your mouth.",
+      "es": "Hablar sin cerrar la boca."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 775,
+    "level": "2",
+    "summary": {
+      "en": "Dance like your life depends on it.",
+      "es": "Baila como si tu vida dependiera de ello."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 776,
+    "level": "2",
+    "summary": {
+      "en": "Attempt to breakdance for one minute.",
+      "es": "Intenta bailar breakdance durante un minuto."
+    },
+    "time": "60",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 777,
+    "level": "4",
+    "summary": {
+      "en": "Do your best sexy crawl.",
+      "es": "Haz tu mejor gateo sexy."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 778,
+    "level": "2",
+    "summary": {
+      "en": "Let the other players redo your hairstyle.",
+      "es": "Deja que los otros jugadores rehagan tu peinado."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 779,
+    "level": "2",
+    "summary": {
+      "en": "Sit in a spinning chair and have the group spin you for 30 seconds.",
+      "es": "Siéntese en una silla giratoria y haga que el grupo lo haga girar durante 30 segundos."
+    },
+    "time": "30",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 782,
+    "level": "2",
+    "summary": {
+      "en": "Pole dance with an imaginary pole.",
+      "es": "Pole dance con un tubo imaginario."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 783,
+    "level": "3",
+    "summary": {
+      "en": "Let the group look through your phone for one minute.",
+      "es": "Deje que el grupo revise su teléfono durante un minuto."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 784,
+    "level": "2",
+    "summary": {
+      "en": "Try to drink a glass of water while standing on your hands.",
+      "es": "Trate de beber un vaso de agua mientras está de pie sobre sus manos."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 785,
+    "level": "2",
+    "summary": {
+      "en": "Empty out your wallet/purse and show everyone what's inside.",
+      "es": "Vacíe su billetera/monedero y muéstreles a todos lo que hay dentro."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 786,
+    "level": "1",
+    "summary": {
+      "en": "Let someone else tickle you and try not to laugh.",
+      "es": "Deja que alguien más te haga cosquillas y trata de no reírte."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 787,
+    "level": "2",
+    "summary": {
+      "en": "Drag your butt on the carpet like a dog from one end of the room to the other.",
+      "es": "Arrastra tu trasero sobre la alfombra como un perro de un extremo a otro de la habitación."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 788,
+    "level": "3",
+    "summary": {
+      "en": "Pretend to be the person to your right for 10 minutes.",
+      "es": "Pretenda ser la persona a su derecha durante 10 minutos."
+    },
+    "time": "600",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 789,
+    "level": "3",
+    "summary": {
+      "en": "Keep three ice cubes in your mouth until they melt.",
+      "es": "Mantén tres cubitos de hielo en tu boca hasta que se derritan."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 790,
+    "level": "4",
+    "summary": {
+      "en": "Show the most embarrassing photo on your phone.",
+      "es": "Muestra la foto más vergonzosa en tu teléfono."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 791,
+    "level": "1",
+    "summary": {
+      "en": "Like the first 15 posts on your Facebook newsfeed.",
+      "es": "Dale me gusta a las primeras 15 publicaciones en tu feed de noticias de Facebook."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 792,
+    "level": "1",
+    "summary": {
+      "en": "Give a foot massage to the person on your right.",
+      "es": "Dale un masaje en los pies a la persona a tu derecha."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 793,
+    "level": "1",
+    "summary": {
+      "en": "Tell the saddest story you know.",
+      "es": "Cuenta la historia más triste que conozcas."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 794,
+    "level": "2",
+    "summary": {
+      "en": "Let someone shave part of your body.",
+      "es": "Deja que alguien te afeite parte del cuerpo."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 795,
+    "level": "2",
+    "summary": {
+      "en": "Let someone paint your nails any way they want.",
+      "es": "Deja que alguien te pinte las uñas como quiera."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 796,
+    "level": "2",
+    "summary": {
+      "en": "Bend at the waist so that you are looking behind you between your legs. Now run backwards until you can tag someone with your butt.",
+      "es": "Dobla la cintura para que mires hacia atrás entre tus piernas. Ahora corre hacia atrás hasta que puedas tocar a alguien con tu trasero."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 797,
+    "level": "4",
+    "summary": {
+      "en": "Eat a banana without using your hands.",
+      "es": "Come un plátano sin usar las manos."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 798,
+    "level": "3",
+    "summary": {
+      "en": "Do 100 squats.",
+      "es": "Haz 100 sentadillas."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 799,
+    "level": "4",
+    "summary": {
+      "en": "Transfer an ice cube from your mouth to the person's mouth on your right.",
+      "es": "Transfiera un cubo de hielo de su boca a la boca de la persona a su derecha."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 800,
+    "level": "1",
+    "summary": {
+      "en": "Try to lick your elbow.",
+      "es": "Intenta lamerte el codo."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 801,
+    "level": "4",
+    "summary": {
+      "en": "Show off your orgasm face.",
+      "es": "Muestra tu cara de orgasmo."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 802,
+    "level": "2",
+    "summary": {
+      "en": "Send a sext to the last person in your phonebook.",
+      "es": "Envíe un mensaje de texto a la última persona en su directorio telefónico."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 803,
+    "level": "4",
+    "summary": {
+      "en": "Choose someone from the group to give you a spanking.",
+      "es": "Elige a alguien del grupo para que te dé una nalgada."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 804,
+    "level": "2",
+    "summary": {
+      "en": "Put as many snacks into your mouth at once as you can.",
+      "es": "Ponga tantos bocadillos en su boca a la vez como pueda."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 805,
+    "level": "3",
+    "summary": {
+      "en": "Get slapped on the face by the person of your choosing.",
+      "es": "Recibe una bofetada en la cara por la persona de tu elección."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 806,
+    "level": "4",
+    "summary": {
+      "en": "Do 5 minutes of stand-up comedy.",
+      "es": "Haz 5 minutos de comedia stand-up."
+    },
+    "time": "300",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 807,
+    "level": "4",
+    "summary": {
+      "en": "Kiss the person to your left.",
+      "es": "Besa a la persona a tu izquierda."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 808,
+    "level": "2",
+    "summary": {
+      "en": "Eat one teaspoon of the spiciest thing you have in the kitchen.",
+      "es": "Come una cucharadita de lo más picante que tengas en la cocina."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 809,
+    "level": "0",
+    "summary": {
+      "en": "Attempt to do a magic trick.",
+      "es": "Intenta hacer un truco de magia."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 810,
+    "level": "0",
+    "summary": {
+      "en": "Do your best impression of a baby being born.",
+      "es": "Haga su mejor impresión de un bebé que nace."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 811,
+    "level": "1",
+    "summary": {
+      "en": "Say two honest things about everyone else in the group.",
+      "es": "Di dos cosas honestas sobre todos los demás en el grupo."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 812,
+    "level": "2",
+    "summary": {
+      "en": "Attempt to walk on your hands for as far as you can.",
+      "es": "Intenta caminar sobre tus manos tanto como puedas."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 813,
+    "level": "3",
+    "summary": {
+      "en": "Let the group pose you in an embarrassing position and take a picture.",
+      "es": "Deje que el grupo lo pose en una posición vergonzosa y tome una fotografía."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 814,
+    "level": "2",
+    "summary": {
+      "en": "Eat a raw onion.",
+      "es": "Come una cebolla cruda."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 815,
+    "level": "3",
+    "summary": {
+      "en": "Put ice cubes down your pants.",
+      "es": "Pon cubitos de hielo en tus pantalones."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 816,
+    "level": "4",
+    "summary": {
+      "en": "Put 10 different available liquids into a cup and drink it.",
+      "es": "Ponga 10 líquidos diferentes disponibles en una taza y bébalo."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 817,
+    "level": "3",
+    "summary": {
+      "en": "Tell everyone an embarrassing story about yourself.",
+      "es": "Cuéntales a todos una historia vergonzosa sobre ti."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 818,
+    "level": "2",
+    "summary": {
+      "en": "Jump up and down as high as you can go for a full minute.",
+      "es": "Salta hacia arriba y hacia abajo tan alto como puedas durante un minuto completo."
+    },
+    "time": "60",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 819,
+    "level": "3",
+    "summary": {
+      "en": "Belly dance like your life depended on it.",
+      "es": "Danza del vientre como si tu vida dependiera de ello."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 820,
+    "level": "3",
+    "summary": {
+      "en": "Beg and plead the person to your right not to leave you for that other boy or girl.",
+      "es": "Ruega y suplica a la persona a tu derecha que no te deje por ese otro niño o niña."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 821,
+    "level": "3",
+    "summary": {
+      "en": "Howl like a wolf.",
+      "es": "Aullar como un lobo."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 822,
+    "level": "2",
+    "summary": {
+      "en": "Open a bag of snacks or candy using only your mouth, no hands or feet.",
+      "es": "Abra una bolsa de bocadillos o dulces usando solo la boca, sin manos ni pies."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 823,
+    "level": "4",
+    "summary": {
+      "en": "Twerk for a minute.",
+      "es": "Twerk por un minuto."
+    },
+    "time": "60",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 824,
+    "level": "4",
+    "summary": {
+      "en": "Curse like sailor for 20 seconds straight.",
+      "es": "Maldice como marinero durante 20 segundos seguidos."
+    },
+    "time": "20",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 825,
+    "level": "4",
+    "summary": {
+      "en": "Perform ballet for 1 minute.",
+      "es": "Realizar ballet durante 1 minuto."
+    },
+    "time": "60",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 826,
+    "level": "4",
+    "summary": {
+      "en": "Go to the bathroom, take off your underwear and put it on your head. Wear it on your head for the rest of the game.",
+      "es": "Ve al baño, quítate la ropa interior y pontela en la cabeza. Llévalo en la cabeza durante el resto del juego."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 827,
+    "level": "3",
+    "summary": {
+      "en": "For a guy, put on makeup. For a girl, wash off your make up.",
+      "es": "Para un chico, ponte maquillaje. Para una chica, lávate el maquillaje."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 828,
+    "level": "2",
+    "summary": {
+      "en": "Do four cartwheels in a row.",
+      "es": "Haz cuatro volteretas seguidas."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 829,
+    "level": "0",
+    "summary": {
+      "en": "Sing the national anthem in a British accent.",
+      "es": "Canta el himno nacional con acento británico."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 830,
+    "level": "2",
+    "summary": {
+      "en": "Quack like a duck until your next turn.",
+      "es": "Grazna como un pato hasta tu próximo turno."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 831,
+    "level": "5",
+    "summary": {
+      "en": "Give a lap dance to someone of your choice.",
+      "es": "Dale un baile erótico a alguien de tu elección."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 832,
+    "level": "2",
+    "summary": {
+      "en": "You have 5 minutes to write a country song and perform it.",
+      "es": "Tienes 5 minutos para escribir una canción country e interpretarla."
+    },
+    "time": "300",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 833,
+    "level": "3",
+    "summary": {
+      "en": "Act like whatever animal someone yells out for the next 1 minute.",
+      "es": "Actúa como cualquier animal que alguien grite durante el siguiente minuto."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 834,
+    "level": "2",
+    "summary": {
+      "en": "Let the player to your right redo your makeup.",
+      "es": "Deja que el jugador a tu derecha renueve tu maquillaje."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 835,
+    "level": "2",
+    "summary": {
+      "en": "Try and make the group laugh as quickly as possible.",
+      "es": "Intenta hacer reír al grupo lo más rápido posible."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 836,
+    "level": "3",
+    "summary": {
+      "en": "Keep your eyes closed until it's your go again.",
+      "es": "Mantén los ojos cerrados hasta que vuelvas a intentarlo."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+  {
+    "id": 837,
+    "level": "0",
+    "summary": {
+      "en": "Pretend to be a squirrel until your next turn.",
+      "es": "Pretende ser una ardilla hasta tu próximo turno."
+    },
+    "time": "",
+    "turns": "",
+    "type": "Dare"
+  },
+    {
+      "id": 838,
+      "level": "4",
+      "summary": {
+        "en": "What color underwear are you wearing right now?",
+        "es": "¿Qué color de ropa interior estás usando en este momento?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 839,
+      "level": "0",
+      "summary": {
+        "en": "What was the last thing you texted?",
+        "es": "¿Qué fue lo último que escribiste?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 840,
+      "level": "0",
+      "summary": {
+        "en": "Have you ever tasted ear wax?",
+        "es": "¿Alguna vez has probado la cera del oído?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 841,
+      "level": "2",
+      "summary": {
+        "en": "Have you ever farted and then blamed someone else?",
+        "es": "¿Alguna vez te tiraste un pedo y luego culpaste a alguien más?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 842,
+      "level": "3",
+      "summary": {
+        "en": "Do you think you'll marry your current girlfriend/boyfriend?,How often do you wash your undergarments?",
+        "es": "¿Crees que te casarás con tu novia/novio actual? ¿Con qué frecuencia lavas tu ropa interior?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 843,
+      "level": "0",
+      "summary": {
+        "en": "Have you ever tasted your sweat?",
+        "es": "¿Alguna vez has probado tu sudor?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 844,
+      "level": "3",
+      "summary": {
+        "en": "If you were rescuing people from a burning building and you had to leave one person behind from this room, who would it be?",
+        "es": "Si estuvieras rescatando personas de un edificio en llamas y tuvieras que dejar a una persona atrás de esta habitación, ¿quién sería?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 845,
+      "level": "1",
+      "summary": {
+        "en": "What is the most illegal thing you have ever done?",
+        "es": "¿Qué es lo más ilegal que has hecho?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 846,
+      "level": "0",
+      "summary": {
+        "en": "If you were reborn, what decade would you want to be born in?",
+        "es": "Si volvieras a nacer, ¿en qué década te gustaría nacer?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 847,
+      "level": "2",
+      "summary": {
+        "en": "Would you trade your sibling in for a million dollars?",
+        "es": "¿Cambiarías a tu hermano por un millón de dólares?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 848,
+      "level": "4",
+      "summary": {
+        "en": "Have you ever thought about cheating on your partner?",
+        "es": "¿Alguna vez has pensado en engañar a tu pareja?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 849,
+      "level": "2",
+      "summary": {
+        "en": "Has your boyfriend or girlfriend ever embarrassed you?",
+        "es": "¿Tu novio o novia te ha avergonzado alguna vez?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 850,
+      "level": "1",
+      "summary": {
+        "en": "Have you ever been caught checking someone out?",
+        "es": "¿Alguna vez te han pillado mirando a alguien?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 851,
+      "level": "3",
+      "summary": {
+        "en": "If you could suddenly become invisible, what would you do?",
+        "es": "Si de repente pudieras volverte invisible, ¿qué harías?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 852,
+      "level": "1",
+      "summary": {
+        "en": "If you could go back in time in erase one thing you said or did, what would it be?",
+        "es": "Si pudieras retroceder en el tiempo y borrar una cosa que dijiste o hiciste, ¿cuál sería?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 853,
+      "level": "1",
+      "summary": {
+        "en": "Have you ever waved at someone thinking they saw you when really they didn't? What did you do when you realized it?",
+        "es": "¿Alguna vez has saludado a alguien pensando que te vio cuando en realidad no lo hizo? ¿Qué hiciste cuando te diste cuenta?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 854,
+      "level": "2",
+      "summary": {
+        "en": "Describe the strangest dream you've ever had. Did you like it?",
+        "es": "Describe el sueño más extraño que hayas tenido. ¿Te gustó?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 855,
+      "level": "3",
+      "summary": {
+        "en": "Would you rather be caught picking your nose or picking a wedgie?",
+        "es": "¿Preferirías que te pillen hurgando tu nariz o hurgando en un calzón?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 856,
+      "level": "1",
+      "summary": {
+        "en": "Have you ever cried because you missed your parents so much?",
+        "es": "¿Alguna vez has llorado porque echabas mucho de menos a tus padres?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 857,
+      "level": "0",
+      "summary": {
+        "en": "Have you ever posted something on social media that you regret?",
+        "es": "¿Alguna vez has publicado algo en las redes sociales de lo que te arrepientas?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 858,
+      "level": "1",
+      "summary": {
+        "en": "Do you pee in the shower?",
+        "es": "¿Orinas en la ducha?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 859,
+      "level": "1",
+      "summary": {
+        "en": "If you lost one day of your life every time you said a swear word, would you try not to do it?",
+        "es": "Si perdieras un día de tu vida cada vez que dices una palabrota, ¿tratarías de no hacerlo?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 860,
+      "level": "3",
+      "summary": {
+        "en": "What is your biggest fear?",
+        "es": "¿Cuál es tu mayor miedo?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 861,
+      "level": "2",
+      "summary": {
+        "en": "Have you ever ding dong ditched someone?",
+        "es": "¿Alguna vez has abandonado a alguien?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 862,
+      "level": "0",
+      "summary": {
+        "en": "Have you ever kept a library book?",
+        "es": "¿Alguna vez has guardado un libro de la biblioteca?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 863,
+      "level": "0",
+      "summary": {
+        "en": "Do you have bad foot odor?",
+        "es": "¿Tienes mal olor de pies?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 864,
+      "level": "0",
+      "summary": {
+        "en": "Do you have any silly nicknames?",
+        "es": "¿Tienes algún apodo tonto?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 865,
+      "level": "1",
+      "summary": {
+        "en": "When was the last time you wet the bed?",
+        "es": "¿Cuándo fue la última vez que mojaste la cama?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 866,
+      "level": "0",
+      "summary": {
+        "en": "What is the most childish thing that you still do?",
+        "es": "¿Qué es lo más infantil que todavía haces?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 867,
+      "level": "2",
+      "summary": {
+        "en": "If you had to make out with any Disney character, who would it be?",
+        "es": "Si tuvieras que besarte con algún personaje de Disney, ¿quién sería?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 868,
+      "level": "2",
+      "summary": {
+        "en": "Who is one person you pretend to like, but actually don't?",
+        "es": "¿Quién es una persona que finges que te gusta, pero en realidad no es así?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 869,
+      "level": "3",
+      "summary": {
+        "en": "The world ends next week, and you can do anything you want (even if it's illegal). What would you do?",
+        "es": "El mundo se acaba la próxima semana y puedes hacer lo que quieras (incluso si es ilegal). ¿Qué harías?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 870,
+      "level": "3",
+      "summary": {
+        "en": "Have you ever watched a movie you knew you shouldn't?",
+        "es": "¿Alguna vez has visto una película que sabías que no debías?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 871,
+      "level": "1",
+      "summary": {
+        "en": "What children’s movie could you watch over and over again?",
+        "es": "¿Qué película infantil podrías ver una y otra vez?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 872,
+      "level": "2",
+      "summary": {
+        "en": "Would you wear your shirt inside out for a whole day if someone paid you $100?",
+        "es": "¿Usarías tu camisa al revés durante un día entero si alguien te pagara $100?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 873,
+      "level": "2",
+      "summary": {
+        "en": "Have you ever wanted to try LARP (Live Action Role-Play)?",
+        "es": "¿Alguna vez has querido probar LARP (Live Action Role-Play)?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 874,
+      "level": "2",
+      "summary": {
+        "en": "Do you dance when you're by yourself?",
+        "es": "¿Bailas cuando estás solo?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 875,
+      "level": "1",
+      "summary": {
+        "en": "How many selfies do you take a day?",
+        "es": "¿Cuántas selfies te tomas al día?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 876,
+      "level": "2",
+      "summary": {
+        "en": "Have you ever pretended to be sick to get out of something? If so, what was it?",
+        "es": "¿Alguna vez has fingido estar enfermo para escapar de algo? Si es así, ¿cuál fue?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 878,
+      "level": "1",
+      "summary": {
+        "en": "What song on the radio do you sing with every time it comes on?",
+        "es": "¿Con qué canción de la radio cantas cada vez que suena?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 879,
+      "level": "1",
+      "summary": {
+        "en": "What app on your phone do you waste the most time on?",
+        "es": "¿En qué aplicación de tu teléfono pierdes más tiempo?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 880,
+      "level": "2",
+      "summary": {
+        "en": "What do your favorite pajamas look like?",
+        "es": "¿Cómo son tus pijamas favoritos?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 881,
+      "level": "1",
+      "summary": {
+        "en": "Have you ever accidentally hit something with your car?",
+        "es": "¿Alguna vez has golpeado accidentalmente algo con tu coche?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 882,
+      "level": "1",
+      "summary": {
+        "en": "Are you scared of the dark?",
+        "es": "¿Tienes miedo a la oscuridad?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 883,
+      "level": "1",
+      "summary": {
+        "en": "How many pancakes have you eaten in a single sitting?",
+        "es": "¿Cuántas tortitas te has comido en una sola sesión?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 884,
+      "level": "1",
+      "summary": {
+        "en": "Do you own a pair of footie pajamas?",
+        "es": "¿Tienes un par de pijamas footie?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 885,
+      "level": "3",
+      "summary": {
+        "en": "What is the most food you've eaten in a single sitting?",
+        "es": "¿Cuál es la mayor cantidad de comida que has comido en una sola sesión?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 886,
+      "level": "3",
+      "summary": {
+        "en": "What 'as seen on TV' product do you secretly want to buy?",
+        "es": "¿Qué producto 'como se ve en la televisión' quieres comprar en secreto?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 887,
+      "level": "3",
+      "summary": {
+        "en": "Do you still take bubble baths?",
+        "es": "¿Sigues tomando baños de burbujas?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 888,
+      "level": "1",
+      "summary": {
+        "en": "Do you have a security blanket?",
+        "es": "¿Tienes una manta de seguridad?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 889,
+      "level": "3",
+      "summary": {
+        "en": "If you were home by yourself all day, what would you do?",
+        "es": "Si estuvieras solo en casa todo el día, ¿qué harías?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 890,
+      "level": "3",
+      "summary": {
+        "en": "What's the most trouble you've been in?",
+        "es": "¿Cuál es el mayor problema en el que te has metido?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 891,
+      "level": "3",
+      "summary": {
+        "en": "What is something you've done to try to be 'cooler'?",
+        "es": "¿Qué es algo que has hecho para tratar de ser 'más cool'?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 892,
+      "level": "4",
+      "summary": {
+        "en": "Are you virgin?",
+        "es": "¿Eres virgen?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 893,
+      "level": "3",
+      "summary": {
+        "en": "Have you ever lied to get out of a bad date?",
+        "es": "¿Alguna vez has mentido para salir de una mala cita?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 894,
+      "level": "3",
+      "summary": {
+        "en": "Have you ever cheated on someone?",
+        "es": "¿Alguna vez has engañado a alguien?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 895,
+      "level": "2",
+      "summary": {
+        "en": "Have you ever cheated in an exam?",
+        "es": "¿Alguna vez has hecho trampa en un examen?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 896,
+      "level": "3",
+      "summary": {
+        "en": "Why did your last relationship break down?",
+        "es": "¿Por qué se rompió tu última relación?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 897,
+      "level": "3",
+      "summary": {
+        "en": "What's your worst habit?",
+        "es": "¿Cuál es tu peor hábito?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 898,
+      "level": "2",
+      "summary": {
+        "en": "What's your biggest regret?",
+        "es": "¿Cuál es tu mayor arrepentimiento?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 899,
+      "level": "1",
+      "summary": {
+        "en": "Do you write in a diary?",
+        "es": "¿Escribes en un diario?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 900,
+      "level": "3",
+      "summary": {
+        "en": "What's the biggest misconception about you?",
+        "es": "¿Cuál es el concepto erróneo más grande sobre ti?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 901,
+      "level": "3",
+      "summary": {
+        "en": "When was the last time you cried?",
+        "es": "¿Cuándo fue la última vez que lloraste?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 902,
+      "level": "3",
+      "summary": {
+        "en": "What is your biggest pet peeve?",
+        "es": "¿Cuáles son las cosas que más te irritan?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 903,
+      "level": "2",
+      "summary": {
+        "en": "What's the strangest dream you've had?",
+        "es": "¿Cuál es el sueño más extraño que has tenido?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 904,
+      "level": "3",
+      "summary": {
+        "en": "When was the last time you lied?",
+        "es": "¿Cuándo fue la última vez que mentiste?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 905,
+      "level": "4",
+      "summary": {
+        "en": "What's your biggest fantasy?",
+        "es": "¿Cuál es tu mayor fantasía?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 906,
+      "level": "3",
+      "summary": {
+        "en": "Who was your first celebrity crush",
+        "es": "Cual fue la primera celebridad de quien te enamoraste"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 907,
+      "level": "3",
+      "summary": {
+        "en": "What's your biggest insecurity?",
+        "es": "¿Cuál es tu mayor inseguridad?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 908,
+      "level": "3",
+      "summary": {
+        "en": "Have you ever had a run in with the law?",
+        "es": "¿Alguna vez has tenido un encontronazo con la ley?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 909,
+      "level": "3",
+      "summary": {
+        "en": "Have you ever peed in the shower?",
+        "es": "¿Alguna vez has orinado en la ducha?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 910,
+      "level": "3",
+      "summary": {
+        "en": "Who is your favorite: Mom or Dad?",
+        "es": "¿Quién es tu favorito: mamá o papá?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 911,
+      "level": "3",
+      "summary": {
+        "en": "What's the worst date you've been on?",
+        "es": "¿Cuál es la peor cita en la que has estado?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 912,
+      "level": "3",
+      "summary": {
+        "en": "What's the biggest mistake you've ever made?",
+        "es": "¿Cuál es el mayor error que has cometido?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 913,
+      "level": "1",
+      "summary": {
+        "en": "Do you have a hidden talent?",
+        "es": "¿Tienes un talento escondido?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 914,
+      "level": "3",
+      "summary": {
+        "en": "What's a secret you've never told anyone?",
+        "es": "¿Qué es un secreto que nunca le has contado a nadie?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 915,
+      "level": "4",
+      "summary": {
+        "en": "Have you ever been caught doing something you shouldn't have?",
+        "es": "¿Alguna vez te han pillado haciendo algo que no deberías?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 917,
+      "level": "3",
+      "summary": {
+        "en": "What's the worst thing you've ever said to anyone?",
+        "es": "¿Qué es lo peor que le has dicho a alguien?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 918,
+      "level": "2",
+      "summary": {
+        "en": "What's the most embarrassing thing you've ever done?",
+        "es": "¿Qué es lo más vergonzoso que has hecho?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 919,
+      "level": "4",
+      "summary": {
+        "en": "What part of your body do you love, and which part do you hate?",
+        "es": "¿Qué parte de tu cuerpo amas y qué parte odias?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 920,
+      "level": "1",
+      "summary": {
+        "en": "Would you choose to save 100 people without anyone knowing about it or not save them but have everyone praise you for it?",
+        "es": "¿Elegirías salvar a 100 personas sin que nadie lo sepa o no salvarlas pero que todos te elogien por ello?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 921,
+      "level": "3",
+      "summary": {
+        "en": "Would you trade in your dog for a million dollars?",
+        "es": "¿Cambiarías a tu perro por un millón de dólares?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 922,
+      "level": "4",
+      "summary": {
+        "en": "Would you rather lose your sex organs forever or gain 200 pounds?",
+        "es": "¿Preferirías perder tus órganos sexuales para siempre o ganar 200 libras?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 923,
+      "level": "4",
+      "summary": {
+        "en": "Do you lick your plate?",
+        "es": "¿Lames tu plato?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 924,
+      "level": "2",
+      "summary": {
+        "en": "Would you rather live with no internet or no A/C or heating?",
+        "es": "¿Preferirías vivir sin internet o sin aire acondicionado o calefacción?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 925,
+      "level": "3",
+      "summary": {
+        "en": "Who in this room would be the worst person to date? Why?",
+        "es": "¿Quién en esta sala sería la peor persona hasta la fecha? ¿Por qué?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 926,
+      "level": "1",
+      "summary": {
+        "en": "Do you like hanging out with your parents?",
+        "es": "¿Te gusta salir con tus padres?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 927,
+      "level": "3",
+      "summary": {
+        "en": "What's the worst thing anyone's ever done to you?",
+        "es": "¿Qué es lo peor que alguien te ha hecho?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 928,
+      "level": "4",
+      "summary": {
+        "en": "Have you ever got caught doing something you shouldn't?",
+        "es": "¿Alguna vez te han pillado haciendo algo que no deberías?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 929,
+      "level": "2",
+      "summary": {
+        "en": "Have you ever pooped your pants?",
+        "es": "¿Alguna vez te has hecho caca en los pantalones?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 930,
+      "level": "3",
+      "summary": {
+        "en": "If someone offered you $1 million to break up with your girlfriend/boyfriend, would you do it?",
+        "es": "Si alguien te ofreciera $1 millón para romper con tu novia/novio, ¿lo harías?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 931,
+      "level": "3",
+      "summary": {
+        "en": "How far would you go to land the guy or girl of your dreams?",
+        "es": "¿Hasta dónde llegarías para conseguir al chico o chica de tus sueños?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 932,
+      "level": "1",
+      "summary": {
+        "en": "If you could only hear one song for the rest of your life, what would it be?",
+        "es": "Si solo pudieras escuchar una canción por el resto de tu vida, ¿cuál sería?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 933,
+      "level": "3",
+      "summary": {
+        "en": "Tell us about a time you embarrassed yourself in front of a crush.",
+        "es": "Cuéntanos sobre una vez que te avergonzaste frente a un enamorado."
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 934,
+      "level": "3",
+      "summary": {
+        "en": "If you were allowed to marry more than one person, would you? Who would you choose to marry?",
+        "es": "Si te permitieran casarte con más de una persona, ¿lo harías? ¿Con quién elegirías casarte?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 935,
+      "level": "1",
+      "summary": {
+        "en": "Have you ever eaten something off the floor?",
+        "es": "¿Alguna vez has comido algo del suelo?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 936,
+      "level": "1",
+      "summary": {
+        "en": "Have you ever butt-dialed someone?",
+        "es": "¿Alguna vez has marcado a alguien?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 937,
+      "level": "1",
+      "summary": {
+        "en": "Do you sleep with a stuffed animal?",
+        "es": "¿Duermes con un peluche?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    },
+    {
+      "id": 938,
+      "level": "1",
+      "summary": {
+        "en": "Have you ever had lice?",
+        "es": "¿Alguna vez has tenido piojos?"
+      },
+      "time": "",
+      "turns": "",
+      "type": "Truth"
+    }
 ]
