@@ -1,10 +1,11 @@
 import getData from './utils/getData'
 import './css/style.css'
+import './utils/jquery.fortune.min.js'
 
 let GENERALDATA = getData()
 const TRUTH = new Array
 const DARE = new Array
-const containerBtn = document.querySelector('.container-btn')
+// const containerBtn = document.querySelector('.container-btn')
 const display = document.querySelector('#display-text')
 const inputLang = document.querySelector('#lang')
 const containerSetting = document.querySelector('#setting')
@@ -15,6 +16,12 @@ const progress = document.querySelector('.progress-bar')
 const containerProgress = document.querySelector('.container-progress')
 const btnPlay = document.querySelector('#btn-play')
 const sound = document.getElementById('sound')
+const game = document.querySelector('#game')
+const setting = document.querySelector('#setting')
+const title = document.querySelector('#title')
+const myTab = document.querySelector('#myTab')
+const btnBackSetting = document.querySelector('#btn-back-setting')
+const btnBackGame = document.querySelector('#btn-back-game')
 const customLevel = []
 let timeActual
 
@@ -61,8 +68,8 @@ const animateText = () => {
 const soundTime = () => {
   sound.muted = false
   sound.play()
-  
-  setTimeout(()=> {
+
+  setTimeout(() => {
     sound.muted = true
     document.querySelector('.container-progress').style.display = ''
     progress.style.width = '0%'
@@ -103,26 +110,25 @@ const getRandomOutput = (optionQuery, level, lang) => {
   let optionSelect = optionQuery
   let newType
   let newText
-  
-  if ( optionSelect === 'random') {
-    let option = ['truth','dare']
-    let randomIndex = getRandomIndex(option.length)
-    
-    optionSelect = option[randomIndex]
-    
+
+  if (optionSelect === 'p') {
+    // let newText = lang === 'en' ? 'Take off one piece of clothing for the rest of the game.' : 'Quitate un prenda por el resto de juego.'
+
+    // upDatedView('Dare', newText)
+
   }
 
-  if ( optionSelect === 'truth') {
+  if (optionSelect === 'truth') {
     const filterByLevel = TRUTH.filter(item => item.level == level)
     if (filterByLevel.length === 0) return;
 
     const indexFilter = getRandomIndex(filterByLevel.length)
     const { type, summary, time } = filterByLevel[indexFilter]
 
-    if(time !== '') {
+    if (time !== '') {
       timeActual = time
       containerProgress.style.display = 'grid'
-      btnPlay.style.display = 'block' 
+      btnPlay.style.display = 'block'
     } else {
       containerProgress.style.display = ''
       sound.muted = true
@@ -132,17 +138,17 @@ const getRandomOutput = (optionQuery, level, lang) => {
     newType = `${type} ❗❓`
   }
 
-  if ( optionSelect === 'dare') {
+  if (optionSelect === 'dare') {
     const filterByLevel = DARE.filter(item => item.level == level)
     if (filterByLevel.length === 0) return;
 
     const indexFilter = getRandomIndex(filterByLevel.length)
     const { type, summary, time } = filterByLevel[indexFilter]
 
-    if(time !== '') {
+    if (time !== '') {
       timeActual = time
       containerProgress.style.display = 'grid'
-      btnPlay.style.display = 'block' 
+      btnPlay.style.display = 'block'
     } else {
       containerProgress.style.display = ''
       sound.muted = true
@@ -155,7 +161,7 @@ const getRandomOutput = (optionQuery, level, lang) => {
   upDatedView(newType, newText)
 }
 
-const onClickAction = ({ target: { dataset } }) => {
+const onClickAction = ({ dataset }) => {
   let level = getRandomLevel()
   getRandomOutput(dataset.action, level, inputLang.value)
 }
@@ -172,7 +178,7 @@ const getCustomLevel = (e) => {
     }
   }
 }
-const onChangeFont = ({target}) => {
+const onChangeFont = ({ target }) => {
   body.style.fontFamily = target.value
 }
 
@@ -180,8 +186,8 @@ const barProgress = () => {
   btnPlay.style.display = 'none'
   let countTime = 0
 
-  let interval = setInterval(()=> {
-  if(countTime !== parseInt(timeActual) + 1) {
+  let interval = setInterval(() => {
+    if (countTime !== parseInt(timeActual) + 1) {
       let percentage = countTime * 100 / timeActual
       progress.style.width = `${percentage}%`
       progress.innerText = `${parseInt(percentage)}%`
@@ -190,15 +196,66 @@ const barProgress = () => {
       soundTime()
       clearInterval(interval)
     }
-    },1000)
+  }, 1000)
+}
+
+const changeView = (e) => {
+  if (e.target.id === 'game-tap' || 'setting-tap') {
+    title.style.display = 'none'
+    myTab.style.display = 'none'
+  }
+}
+
+// let option = {
+//   speed: 10,
+//   duration: 3,
+//   stopImageNumber: getRandomIndex(5),
+//   startCallback: function () {
+//     console.log('start');
+//   },
+//   slowDownCallback: function () {
+//     console.log('slowDown');
+//   },
+//   stopCallback: function ($stopElm) {
+//     console.log('stop');
+//     onClickAction($stopElm[0])
+//   }
+// }
+
+// let rouletter = $('.roulette').roulette(option);
+
+// $('.start').click(function () {
+//   option['stopImageNumber'] = getRandomIndex(5)
+//   rouletter.roulette('option', option);
+//   rouletter.roulette('start');
+
+// });
+
+const onClickBackSetting = () => {
+  setting.classList.remove('active')
+  setting.classList.remove('show')
+
+  title.style.display = ''
+  myTab.style.display = ''
+
+}
+
+const onClickBackGame = () => {
+  game.classList.remove('active')
+  game.classList.remove('show')
+
+  title.style.display = ''
+  myTab.style.display = ''
 }
 
 
-containerBtn.addEventListener('click', onClickAction)
+// containerBtn.addEventListener('click', onClickAction)
 inputLang.addEventListener('change', onChangeLang)
 containerSetting.addEventListener('click', getCustomLevel)
 inputFont.addEventListener('change', onChangeFont)
 btnPlay.addEventListener('click', barProgress)
+// myTab.addEventListener('click', changeView)
+// btnBackSetting.addEventListener('click', onClickBackSetting)
+// btnBackGame.addEventListener('click', onClickBackGame)
 
 getTruthAndDare()
-

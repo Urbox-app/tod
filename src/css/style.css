@@ -2,10 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
 
 body {
-	/* background: linear-gradient(180deg, #b102fe, #a80698, #139fd2, #126e81); */
-	background: #007ab1;
 	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+	background-position: center;
+	background-size: cover;
 	height: 100vh;
 	/* overflow: hidden; */
 	font-family: 'Rajdhani', sans-serif;
@@ -26,7 +25,6 @@ body {
 
 .container-game {
 	display: grid;
-	grid-template-rows: 1fr 1fr;
 }
 
 #display-text {
@@ -100,3 +98,31 @@ button {
 .progress {
 	grid-column: 2/-1;
  }
+
+.start {
+	border-radius: 20px;
+	box-shadow: 0px 5px 8px 0px #d70c1f;
+	animation: sparedS 1.5s ease infinite
+}
+
+@keyframes sparedS {
+	0% {
+		box-shadow: 0px 5px 8px 1px #d70c1f;
+	}
+
+	50% {
+		box-shadow: 0px 5px 8px 3px #d70c1f;
+	}
+
+	100% {
+		box-shadow: 0px 5px 8px 0px #d70c1f;
+	}
+}
+
+/* .home {
+	display: grid;
+	grid-template-rows: 1fr;
+	justify-items: stretch;
+	height: 50vh;
+	align-items: center;
+} */
