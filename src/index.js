@@ -1,6 +1,6 @@
 import getData from './utils/getData'
-import './css/style.css'
 import './utils/jquery.fortune.min.js'
+import './css/style.css'
 
 let GENERALDATA = getData()
 const TRUTH = new Array
@@ -18,6 +18,8 @@ const btnPlay = document.querySelector('#btn-play')
 const sound = document.getElementById('sound')
 const game = document.querySelector('#game')
 const setting = document.querySelector('#setting')
+const gameTab = document.querySelector('#game-tab')
+const settingTab = document.querySelector('#setting-tab')
 const title = document.querySelector('#title')
 const myTab = document.querySelector('#myTab')
 const btnBackSetting = document.querySelector('#btn-back-setting')
@@ -28,6 +30,7 @@ let timeActual
 let textInit = inputLang.value === 'en' ? 'They are ready?' : '¿Están listos?'
 
 window.onload = () => {
+  sessionStorage.setItem('isNewGame', true)
   display.innerText = textInit
   animateText()
 };
@@ -99,11 +102,10 @@ const getRandomLevel = () => {
     let indexLevelCustom = getRandomIndex(customLevel.length)
     levelSelected = customLevel[indexLevelCustom]
     randomLevel = levelSelected
-
     return randomLevel
   }
-
-  return randomLevel = getRandomIndex(defaultLevel)
+  randomLevel = getRandomIndex(defaultLevel)
+  return randomLevel
 }
 
 const getRandomOutput = (optionQuery, level, lang) => {
@@ -115,6 +117,7 @@ const getRandomOutput = (optionQuery, level, lang) => {
     // let newText = lang === 'en' ? 'Take off one piece of clothing for the rest of the game.' : 'Quitate un prenda por el resto de juego.'
 
     // upDatedView('Dare', newText)
+    display.style.textShadow = '0px 0px 20px #c82333'
 
   }
 
@@ -133,6 +136,8 @@ const getRandomOutput = (optionQuery, level, lang) => {
       containerProgress.style.display = ''
       sound.muted = true
     }
+
+    display.style.textShadow = '0px 0px 20px #33c2ff'
 
     newText = lang === 'en' ? summary.en : summary.es
     newType = `${type} ❗❓`
@@ -154,6 +159,8 @@ const getRandomOutput = (optionQuery, level, lang) => {
       sound.muted = true
     }
 
+    display.style.textShadow = '0px 0px 20px #ff0000'
+
     newText = lang === 'en' ? summary.en : summary.es
     newType = `${type} 🔥`
   }
@@ -167,7 +174,7 @@ const onClickAction = ({ dataset }) => {
 }
 
 const getCustomLevel = (e) => {
-  if (e.target.id !== '') {
+  if (e.target.id.includes('check')) {
     let elementSelect = document.querySelector('#' + e.target.id)
 
     if (elementSelect.checked) {
@@ -177,6 +184,7 @@ const getCustomLevel = (e) => {
       customLevel.pop(index)
     }
   }
+  console.log(customLevel)
 }
 const onChangeFont = ({ target }) => {
   body.style.fontFamily = target.value
@@ -206,34 +214,8 @@ const changeView = (e) => {
   }
 }
 
-// let option = {
-//   speed: 10,
-//   duration: 3,
-//   stopImageNumber: getRandomIndex(5),
-//   startCallback: function () {
-//     console.log('start');
-//   },
-//   slowDownCallback: function () {
-//     console.log('slowDown');
-//   },
-//   stopCallback: function ($stopElm) {
-//     console.log('stop');
-//     onClickAction($stopElm[0])
-//   }
-// }
-
-// let rouletter = $('.roulette').roulette(option);
-
-// $('.start').click(function () {
-//   option['stopImageNumber'] = getRandomIndex(5)
-//   rouletter.roulette('option', option);
-//   rouletter.roulette('start');
-
-// });
-
 const onClickBackSetting = () => {
-  setting.classList.remove('active')
-  setting.classList.remove('show')
+  setting.style.display = 'none'
 
   title.style.display = ''
   myTab.style.display = ''
@@ -241,8 +223,7 @@ const onClickBackSetting = () => {
 }
 
 const onClickBackGame = () => {
-  game.classList.remove('active')
-  game.classList.remove('show')
+  game.style.display = 'none'
 
   title.style.display = ''
   myTab.style.display = ''
@@ -254,8 +235,47 @@ inputLang.addEventListener('change', onChangeLang)
 containerSetting.addEventListener('click', getCustomLevel)
 inputFont.addEventListener('change', onChangeFont)
 btnPlay.addEventListener('click', barProgress)
-// myTab.addEventListener('click', changeView)
-// btnBackSetting.addEventListener('click', onClickBackSetting)
-// btnBackGame.addEventListener('click', onClickBackGame)
+myTab.addEventListener('click', changeView)
+btnBackSetting.addEventListener('click', onClickBackSetting)
+btnBackGame.addEventListener('click', onClickBackGame)
+gameTab.addEventListener('click', () => {
+  let rouletter
+  let option 
+  game.style.display = ''
+
+  if (sessionStorage.getItem('isNewGame')=== 'true') {
+    option = {
+      speed: 10,
+      duration: 3,
+      stopImageNumber: getRandomIndex(5),
+      startCallback: function () {
+        console.log('start');
+      },
+      slowDownCallback: function () {
+        console.log('slowDown');
+      },
+      stopCallback: function ($stopElm) {
+        onClickAction($stopElm[0])
+        document.querySelector('.start').disabled = false
+        console.log('stop', $stopElm[0]);
+      }
+    }
+    rouletter = $('#c-roulette').roulette(option);
+
+    $('.start').click(function () {
+      this.disabled = true;
+      option['stopImageNumber'] = getRandomIndex(5)
+      rouletter.roulette('option', option);
+      rouletter.roulette('start');
+    });
+    sessionStorage.setItem('isNewGame', false)
+  }
+
+
+})
+
+settingTab.addEventListener('click', () => {
+  setting.style.display = ''
+})
 
 getTruthAndDare()

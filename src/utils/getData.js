@@ -1,5 +1,5 @@
-// import output from '../output.json'
-import output from '../prueba.json'
+import output from '../output.json'
+// import output from '../prueba.json'
 
 const getData = () => output
 
