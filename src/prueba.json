@@ -7,7 +7,7 @@
       "es": "Proporcione una rutina de comedia stand-up de 3 minutos"
     },
     "time": "5",
-    "turns": "",
+    "turns": "5",
     "type": "Dare"
   },
   {
@@ -18,7 +18,7 @@
       "es": "cepillar los dientes de otra persona"
     },
     "time": "",
-    "turns": "",
+    "turns": "5",
     "type": "Dare"
   },
   {
@@ -39,7 +39,7 @@
       "en": "Do you like to exercise?",
       "es": "¿Le gusta hacer ejercicio?"
     },
-    "time": "",
+    "time": "5",
     "turns": "",
     "type": "Truth"
   },
@@ -50,7 +50,7 @@
       "en": "Do you like to exercise?",
       "es": "¿Le gusta hacer ejercicio?"
     },
-    "time": "",
+    "time": "5",
     "turns": "",
     "type": "Truth"
   },
@@ -61,7 +61,7 @@
       "en": "Do you like to exercise?",
       "es": "¿Le gusta hacer ejercicio?"
     },
-    "time": "",
+    "time": "5",
     "turns": "",
     "type": "Truth"
   },
@@ -72,7 +72,7 @@
       "en": "Ask your partner to blindfold you and choose a part of their body to kiss, enliven the part you kissed.",
       "es": "Pidele a tu pareja que te vende los ojo y que elija una parte de su cuerpo para besar, avivina la parte besaste."
     },
-    "time": "",
+    "time": "5",
     "turns": "",
     "type": "Dare"
   }

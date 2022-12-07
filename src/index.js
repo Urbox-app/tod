@@ -1,5 +1,6 @@
 import getData from './utils/getData'
 import './utils/jquery.fortune.min.js'
+import ProgressBar from'./utils/progressbar.min.js'
 import './css/style.css'
 
 let GENERALDATA = getData()
@@ -24,14 +25,21 @@ const title = document.querySelector('#title')
 const myTab = document.querySelector('#myTab')
 const btnBackSetting = document.querySelector('#btn-back-setting')
 const btnBackGame = document.querySelector('#btn-back-game')
+const container1 = document.querySelector('#container1')
 const customLevel = []
+
+let languageBrowser
 let timeActual
 
-let textInit = inputLang.value === 'en' ? 'They are ready?' : '¿Están listos?'
+let textInit = inputLang.value === 'en' ? 'Are they ready?' : '¿Están listos?'
 
 window.onload = () => {
   sessionStorage.setItem('isNewGame', true)
   display.innerText = textInit
+  languageBrowser = window.navigator.language.split('-')[0]
+  
+  inputLang.value = languageBrowser
+  onChangeLang()
   animateText()
 };
 
@@ -47,8 +55,18 @@ const getTruthAndDare = () => {
   })
 }
 
+let tuluzz = new ProgressBar.Circle(container1, {
+  strokeWidth: 6,
+  easing: 'easeInOut',
+  color: '#21abe9',
+  trailColor: '#f4f4f4',
+  trailWidth: 1,
+  svgStyle: null
+});
+
+
 const onChangeLang = () => {
-  textInit = inputLang.value === 'en' ? 'They are ready?' : '¿Están listos?'
+  textInit = inputLang.value === 'en' ? 'Are they ready?' : '¿Están listos?'
   containerType.innerText = '😃'
   display.innerText = textInit;
   animateText()
@@ -140,7 +158,7 @@ const getRandomOutput = (optionQuery, level, lang) => {
     display.style.textShadow = '0px 0px 20px #33c2ff'
 
     newText = lang === 'en' ? summary.en : summary.es
-    newType = `${type} ❗❓`
+    newType = lang === 'en' ? `${type} ❓` : 'Verdad ❓'
   }
 
   if (optionSelect === 'dare') {
@@ -162,7 +180,7 @@ const getRandomOutput = (optionQuery, level, lang) => {
     display.style.textShadow = '0px 0px 20px #ff0000'
 
     newText = lang === 'en' ? summary.en : summary.es
-    newType = `${type} 🔥`
+    newType = lang === 'en' ? `${type} 🔥` : 'Reto 🔥'
   }
 
   upDatedView(newType, newText)
@@ -184,21 +202,19 @@ const getCustomLevel = (e) => {
       customLevel.pop(index)
     }
   }
-  console.log(customLevel)
 }
 const onChangeFont = ({ target }) => {
   body.style.fontFamily = target.value
 }
 
 const barProgress = () => {
-  btnPlay.style.display = 'none'
+  btnPlay.style.display = ''
   let countTime = 0
-
+  timeActual = 5
   let interval = setInterval(() => {
     if (countTime !== parseInt(timeActual) + 1) {
-      let percentage = countTime * 100 / timeActual
-      progress.style.width = `${percentage}%`
-      progress.innerText = `${parseInt(percentage)}%`
+      let percentage = countTime / timeActual
+      tuluzz.animate(percentage);
       countTime++
     } else {
       soundTime()
@@ -229,21 +245,13 @@ const onClickBackGame = () => {
   myTab.style.display = ''
 }
 
-
-// containerBtn.addEventListener('click', onClickAction)
-inputLang.addEventListener('change', onChangeLang)
-containerSetting.addEventListener('click', getCustomLevel)
-inputFont.addEventListener('change', onChangeFont)
-btnPlay.addEventListener('click', barProgress)
-myTab.addEventListener('click', changeView)
-btnBackSetting.addEventListener('click', onClickBackSetting)
-btnBackGame.addEventListener('click', onClickBackGame)
-gameTab.addEventListener('click', () => {
+const onClickGame = () => {
   let rouletter
-  let option 
+  let option
   game.style.display = ''
 
-  if (sessionStorage.getItem('isNewGame')=== 'true') {
+  if (sessionStorage.getItem('isNewGame') === 'true') {
+    // tuluzz._container.appendChild('<img data - action="p" src = "./images/1p.png" /> ')
     option = {
       speed: 10,
       duration: 3,
@@ -270,12 +278,134 @@ gameTab.addEventListener('click', () => {
     });
     sessionStorage.setItem('isNewGame', false)
   }
+}
 
+  settingTab.addEventListener('click', () => {
+    setting.style.display = ''
+  })
 
-})
-
-settingTab.addEventListener('click', () => {
-  setting.style.display = ''
-})
+// containerBtn.addEventListener('click', onClickAction)
+inputLang.addEventListener('change', onChangeLang)
+containerSetting.addEventListener('click', getCustomLevel)
+inputFont.addEventListener('change', onChangeFont)
+btnPlay.addEventListener('click', barProgress)
+myTab.addEventListener('click', changeView)
+btnBackSetting.addEventListener('click', onClickBackSetting)
+btnBackGame.addEventListener('click', onClickBackGame)
+gameTab.addEventListener('click', onClickGame)
 
 getTruthAndDare()
+
+$(document).ready(function () {
+  let optionRuleta = [
+  {
+    title: 'Truth',
+    color: '#1f60a2',
+    id: 'truth'
+  },
+  {
+    title: 'Dare',
+    color: '#dc3545',
+    id: 'dare'
+  },
+  {
+    title: 'Truth',
+    color: '#1f60a2',
+    id: 'truth'
+  },
+  {
+    title: 'Dare',
+    color: '#dc3545',
+    id: 'dare'
+  },
+  {
+    title: 'Truth',
+    color: '#1f60a2',
+    id: 'truth'
+  },
+  {
+    title: 'Dare',
+    color: '#dc3545',
+    id: 'dare'
+  },
+  {
+    title: 'Truth',
+    color: '#1f60a2',
+    id: 'truth'
+  },
+  {
+    title: 'Dare',
+    color: '#dc3545',
+    id: 'dare'
+  },
+]
+  let tamanyoRuleta = 300;
+  let numeroCasillas = optionRuleta.length;
+  let anguloCasillas = 360 / numeroCasillas;
+  let grados = (180 - anguloCasillas) / 2;
+  let alturaCasilla = Math.tan(grados * Math.PI / 180) * (tamanyoRuleta / 2);
+
+
+  $(".ruleta").css({
+    'width': tamanyoRuleta + 'px',
+    'height': tamanyoRuleta + 'px'
+  })
+
+  $(".contenedor-ruleta").css({
+    'width': tamanyoRuleta + 'px',
+    'height': tamanyoRuleta + 'px',
+    'margin':' 0 auto'
+  })
+
+  $('head').append('<style id="afterNumero"></style>');
+
+  optionRuleta.forEach((item, i) => {
+    $(".ruleta").append('<div class="opcion opcion-' + i + '"></div>');
+    let clasS = '.opcion-' + i;
+
+    $(clasS)
+      .attr('data-action', item.id) 
+      .attr('data-content', i)
+      .attr('data-ancho', (tamanyoRuleta / 2) + 'px')
+      .attr('data-line', (tamanyoRuleta / 2) + 'px');
+
+    $(clasS).css({
+      'transform': 'rotate(' + anguloCasillas * i + 'deg)',
+      'border-bottom-color': item.color
+    });
+
+    $('#afterNumero').append('.opcion-' + i + '::before {content: "' + item.title + '"}');
+
+  })
+
+  $(".opcion").css({
+    'border-bottom-width': alturaCasilla + 'px',
+    'border-right-width': (tamanyoRuleta / 2) + 'px',
+    'border-left-width': (tamanyoRuleta / 2) + 'px'
+  })
+
+  $('.ruleta').before().click(function () {
+    let num;
+    let numID = 'number-';
+    num = 0 + Math.round(Math.random() * (numeroCasillas - 1));
+    numID += num;
+
+    $('#animacionRuleta').remove();
+
+    $('head').append('<style id="animacionRuleta">' +
+      '#number-' + num + ' { animation-name: number-' + num + '; } ' +
+      '@keyframes number-' + num + ' {' +
+      'from { transform: rotate(0); } ' +
+      'to { transform: rotate(' + (360 * (numeroCasillas - 1) - anguloCasillas * num) + 'deg); }' +
+      '}' +
+      '</style>'
+    );
+
+    $('.ruleta').removeAttr('id').attr('id', numID);
+
+    setTimeout(()=> {
+      onClickAction($('.opcion-' + num)[0])
+    },6000)
+  });
+
+});

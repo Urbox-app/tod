@@ -23,16 +23,19 @@
           <span class="material-icons md-18 text-danger my-3" style="font-size: 10rem;">local_fire_department</span>
         </div>
       </div>
+
+      <div class="row">
+        
+      </div>
     </div>
 
     <div class="container">
-      <div class="row">
+      <div class="row" style="position: relative; height: 150px;">
         <!-- Home -->
         <div class="col" style="position: absolute; top: 60%;">
           <div class="flex-column" id="myTab" role="tablist">
 
-            <button class="btn btn-outline-danger" id="game-tab" data-toggle="tab" href="#game" role="tab">🎮
-              Play</button>
+            <button class="btn btn-outline-danger" id="game-tab" data-toggle="tab" href="#game" role="tab">▶ Play</button>
 
             <button class="btn btn-outline-success my-4" id="setting-tab" data-toggle="tab" href="#setting" role="tab">⚙
               Setting</button>
@@ -65,11 +68,9 @@
                             <div class="display">
                               <p id="display-text"></p>
                               <div class="text-white container-progress">
-                                <div id="btn-play" style="font-size:1.5rem">▶</div>
-                                <div class="progress my-4">
-                                  <div class="progress-bar progress-bar-striped progress-bar-animated"
-                                    role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"
-                                    style="width: 0%">0</div>
+                                <div>
+                                  <div id="btn-play" style="font-size:1.5rem">▶</div>
+                                  <div id="container1"></div>
                                 </div>
                               </div>
                             </div>
@@ -78,18 +79,10 @@
                       </div>
                     </div>
 
-                    <div class="row">
+                    <div class="row mt-5">
                       <div class="col" style="display: grid; grid-template-rows: 1fr 1fr 1fr;">
-                        <div id="c-roulette" class="roulette d-flex justify-content-center" style="display:none;">
-                          <img data-action="truth" src="./images/truth.png" />
-                          <img data-action="dare" src="./images/dare.png" />
-                          <img data-action="truth" src="./images/truth.png" />
-                          <img data-action="dare" src="./images/dare.png" />
-                          <img data-action="p" src="./images/1p.png" />
-                        </div>
-
-                        <div class="btn_container my-4" style="grid-row: 3;">
-                          <button class="btn btn-danger start" style="width: 100%;"> START </button>
+                        <div class="contenedor-ruleta">
+                          <div class="ruleta"></div>
                         </div>
                       </div>
                     </div>
@@ -127,32 +120,32 @@
                         <div class="col">
                           <div class="form-check">
                             <input data-level="0" class="form-check-input" type="checkbox" value="" id="check0">
-                            <label class="form-check-label ml-2" for="check0">0️⃣ ◼ Disgustin</label>
+                            <label class="form-check-label ml-2" for="check0">0️⃣ Disgustin</label>
                           </div>
 
                           <div class="form-check">
                             <input data-level="1" class="form-check-input" type="checkbox" value="" id="check1">
-                            <label class="form-check-label ml-2" for="check1"> 1️⃣ ◼ Stupi</label>
+                            <label class="form-check-label ml-2" for="check1"> 1️⃣ Stupi</label>
                           </div>
 
                           <div class="form-check">
                             <input data-level="2" class="form-check-input" type="checkbox" value="" id="check2">
-                            <label class="form-check-label ml-2" for="check2"> 2️⃣ ◼ Norma </label>
+                            <label class="form-check-label ml-2" for="check2"> 2️⃣ Norma </label>
                           </div>
 
                           <div class="form-check">
                             <input data-level="3" class="form-check-input" type="checkbox" value="" id="check3">
-                            <label class="form-check-label ml-2" for="check3"> 3️⃣ ◼ Soft </label>
+                            <label class="form-check-label ml-2" for="check3"> 3️⃣ Soft </label>
                           </div>
 
                           <div class="form-check">
                             <input data-level="4" class="form-check-input" type="checkbox" value="" id="check4">
-                            <label class="form-check-label ml-2" for="check4"> 4️⃣ ◼ Sexy </label>
+                            <label class="form-check-label ml-2" for="check4"> 4️⃣ Sexy </label>
                           </div>
 
                           <div class="form-check">
                             <input data-level="5" class="form-check-input" type="checkbox" value="" id="check5">
-                            <label class="form-check-label ml-2" for="check5"> 5️⃣ ◼ Hot </label>
+                            <label class="form-check-label ml-2" for="check5"> 5️⃣ Hot </label>
                           </div>
                         </div>
                       </div>
@@ -180,6 +173,7 @@
             <!-- /Content -->
           </div>
         </div>
+      </div>
       </div>
 
       <div>
