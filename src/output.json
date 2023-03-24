@@ -336,7 +336,7 @@
       "en": "Give your partner head for 30 seconds",
       "es": "Dale a tu pareja la cabeza durante 30 segundos"
     },
-    "time": "300",
+    "time": "30",
     "turns": "",
     "type": "Dare"
   },
@@ -3205,7 +3205,7 @@
     "level": "5",
     "summary": {
       "en": "Make love with your partner for 1 minute only (must stop after 3 minutes)",
-      "es": "Haz el amor con tu pareja solo por 1 minuto (debes parar después de 3 minuto)"
+      "es": "Haz el amor con tu pareja solo por 1 minuto (debes parar después de 1 minuto)"
     },
     "time": "60",
     "turns": "",
